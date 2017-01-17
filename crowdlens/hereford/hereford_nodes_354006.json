@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "387845214v2", "TIMESTAMP": "2013-01-14T17:36:52Z", "UID": "354006", "USERNAME": "vagabond", "CHANGESET": "14651006" }, "geometry": { "type": "Point", "coordinates": [ -2.747887099999957, 52.076836900000046 ] } },
+{ "type": "Feature", "properties": { "ID_V": "391515925v2", "TIMESTAMP": "2013-01-14T17:36:52Z", "UID": "354006", "USERNAME": "vagabond", "CHANGESET": "14651006" }, "geometry": { "type": "Point", "coordinates": [ -2.743187899999953, 52.076442500000041 ] } },
+{ "type": "Feature", "properties": { "ID_V": "96004551v7", "TIMESTAMP": "2013-01-14T17:36:52Z", "UID": "354006", "USERNAME": "vagabond", "CHANGESET": "14651006" }, "geometry": { "type": "Point", "coordinates": [ -2.7488624, 52.076885700000048 ] } },
+{ "type": "Feature", "properties": { "ID_V": "391515937v2", "TIMESTAMP": "2013-01-14T17:36:52Z", "UID": "354006", "USERNAME": "vagabond", "CHANGESET": "14651006" }, "geometry": { "type": "Point", "coordinates": [ -2.738857699999926, 52.07621830000005 ] } },
+{ "type": "Feature", "properties": { "ID_V": "218654912v8", "TIMESTAMP": "2013-01-14T17:36:51Z", "UID": "354006", "USERNAME": "vagabond", "CHANGESET": "14651006" }, "geometry": { "type": "Point", "coordinates": [ -2.745290699999941, 52.076645 ] } }
+]
+}

@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "1218751734v1", "TIMESTAMP": "2011-03-26T10:06:41Z", "UID": "421924", "USERNAME": "QldProtectedAreas", "CHANGESET": "7673709" }, "geometry": { "type": "Point", "coordinates": [ 152.86139850000006, -25.298817499999927 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1218751731v1", "TIMESTAMP": "2011-03-26T10:06:41Z", "UID": "421924", "USERNAME": "QldProtectedAreas", "CHANGESET": "7673709" }, "geometry": { "type": "Point", "coordinates": [ 152.86129510000012, -25.301008899999943 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1218751730v1", "TIMESTAMP": "2011-03-26T10:06:41Z", "UID": "421924", "USERNAME": "QldProtectedAreas", "CHANGESET": "7673709" }, "geometry": { "type": "Point", "coordinates": [ 152.86311930000011, -25.299413399999935 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1218751733v1", "TIMESTAMP": "2011-03-26T10:06:41Z", "UID": "421924", "USERNAME": "QldProtectedAreas", "CHANGESET": "7673709" }, "geometry": { "type": "Point", "coordinates": [ 152.86134060000006, -25.299174799999946 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1218751726v1", "TIMESTAMP": "2011-03-26T10:06:40Z", "UID": "421924", "USERNAME": "QldProtectedAreas", "CHANGESET": "7673709" }, "geometry": { "type": "Point", "coordinates": [ 152.859322, -25.297899799999982 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1218751727v1", "TIMESTAMP": "2011-03-26T10:06:40Z", "UID": "421924", "USERNAME": "QldProtectedAreas", "CHANGESET": "7673709" }, "geometry": { "type": "Point", "coordinates": [ 152.85886950000008, -25.300684299999944 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1218751725v1", "TIMESTAMP": "2011-03-26T10:06:40Z", "UID": "421924", "USERNAME": "QldProtectedAreas", "CHANGESET": "7673709" }, "geometry": { "type": "Point", "coordinates": [ 152.86155790000009, -25.299386199999958 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1218751729v1", "TIMESTAMP": "2011-03-26T10:06:41Z", "UID": "421924", "USERNAME": "QldProtectedAreas", "CHANGESET": "7673709" }, "geometry": { "type": "Point", "coordinates": [ 152.86309040000003, -25.299591799999973 ] } }
+]
+}

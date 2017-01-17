@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "14800589v6", "TIMESTAMP": "2009-03-08T13:15:11Z", "UID": "6975", "USERNAME": "ulfl", "CHANGESET": "757880", "SHAPE_Leng": 0.002306 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -43.177174799999932, -22.958698 ], [ -43.176072799999986, -22.960723299999927 ] ] ] } },
+{ "type": "Feature", "properties": { "ID_V": "14800593v7", "TIMESTAMP": "2009-03-08T13:15:11Z", "UID": "6975", "USERNAME": "ulfl", "CHANGESET": "757880", "SHAPE_Leng": 0.002301 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -43.175815299999954, -22.960589 ], [ -43.176891599999976, -22.958555799999942 ] ] ] } }
+]
+}

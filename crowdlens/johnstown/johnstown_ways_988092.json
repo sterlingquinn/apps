@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "12054588v6", "TIMESTAMP": "2013-04-05T18:21:06Z", "UID": "988092", "USERNAME": "WENJIANG CHU", "CHANGESET": "15623373", "SHAPE_Leng": 0.000788 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -78.921761899999979, 40.320525100000054 ], [ -78.921840699999962, 40.320857600000068 ], [ -78.921705299999985, 40.321282900000028 ] ] ] } }
+]
+}

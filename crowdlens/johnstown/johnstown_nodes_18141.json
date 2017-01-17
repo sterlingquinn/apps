@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "157576639v2", "TIMESTAMP": "2007-12-24T22:10:48Z", "UID": "18141", "USERNAME": "Hobby Navigator", "CHANGESET": "414611" }, "geometry": { "type": "Point", "coordinates": [ -78.868914099999984, 40.290911700000038 ] } }
+]
+}

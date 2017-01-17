@@ -1,0 +1,26 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "1844743852v1", "TIMESTAMP": "2012-07-31T00:03:13Z", "UID": "348290", "USERNAME": "trilhado", "CHANGESET": "12555370" }, "geometry": { "type": "Point", "coordinates": [ -43.185801, -22.973297 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1844743742v1", "TIMESTAMP": "2012-07-31T00:03:10Z", "UID": "348290", "USERNAME": "trilhado", "CHANGESET": "12555370" }, "geometry": { "type": "Point", "coordinates": [ -43.180513, -22.968944 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1844743744v1", "TIMESTAMP": "2012-07-31T00:03:10Z", "UID": "348290", "USERNAME": "trilhado", "CHANGESET": "12555370" }, "geometry": { "type": "Point", "coordinates": [ -43.184797, -22.968944 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1844743797v1", "TIMESTAMP": "2012-07-31T00:03:12Z", "UID": "348290", "USERNAME": "trilhado", "CHANGESET": "12555370" }, "geometry": { "type": "Point", "coordinates": [ -43.18354, -22.970514 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1844743798v1", "TIMESTAMP": "2012-07-31T00:03:12Z", "UID": "348290", "USERNAME": "trilhado", "CHANGESET": "12555370" }, "geometry": { "type": "Point", "coordinates": [ -43.183263, -22.970545 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1844743884v1", "TIMESTAMP": "2012-07-31T00:03:13Z", "UID": "348290", "USERNAME": "trilhado", "CHANGESET": "12555370" }, "geometry": { "type": "Point", "coordinates": [ -43.187744, -22.976073 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1844743901v1", "TIMESTAMP": "2012-07-31T00:03:15Z", "UID": "348290", "USERNAME": "trilhado", "CHANGESET": "12555370" }, "geometry": { "type": "Point", "coordinates": [ -43.189919, -22.98254 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1844743904v1", "TIMESTAMP": "2012-07-31T00:03:15Z", "UID": "348290", "USERNAME": "trilhado", "CHANGESET": "12555370" }, "geometry": { "type": "Point", "coordinates": [ -43.189656, -22.982945 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1844743858v1", "TIMESTAMP": "2012-07-31T00:03:13Z", "UID": "348290", "USERNAME": "trilhado", "CHANGESET": "12555370" }, "geometry": { "type": "Point", "coordinates": [ -43.189923, -22.975827 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1844743737v1", "TIMESTAMP": "2012-07-31T00:03:10Z", "UID": "348290", "USERNAME": "trilhado", "CHANGESET": "12555370" }, "geometry": { "type": "Point", "coordinates": [ -43.185126, -22.968257 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1844743735v1", "TIMESTAMP": "2012-07-31T00:03:10Z", "UID": "348290", "USERNAME": "trilhado", "CHANGESET": "12555370" }, "geometry": { "type": "Point", "coordinates": [ -43.185374, -22.968178 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1844743739v1", "TIMESTAMP": "2012-07-31T00:03:10Z", "UID": "348290", "USERNAME": "trilhado", "CHANGESET": "12555370" }, "geometry": { "type": "Point", "coordinates": [ -43.18056, -22.968705 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1844743848v1", "TIMESTAMP": "2012-07-31T00:03:13Z", "UID": "348290", "USERNAME": "trilhado", "CHANGESET": "12555370" }, "geometry": { "type": "Point", "coordinates": [ -43.185738, -22.972853 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1844743838v1", "TIMESTAMP": "2012-07-31T00:03:13Z", "UID": "348290", "USERNAME": "trilhado", "CHANGESET": "12555370" }, "geometry": { "type": "Point", "coordinates": [ -43.183431, -22.970974 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1844743629v1", "TIMESTAMP": "2012-07-31T00:03:05Z", "UID": "348290", "USERNAME": "trilhado", "CHANGESET": "12555370" }, "geometry": { "type": "Point", "coordinates": [ -43.197364, -22.958394 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1844743628v1", "TIMESTAMP": "2012-07-31T00:03:05Z", "UID": "348290", "USERNAME": "trilhado", "CHANGESET": "12555370" }, "geometry": { "type": "Point", "coordinates": [ -43.197222, -22.958267 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1844743863v1", "TIMESTAMP": "2012-07-31T00:03:13Z", "UID": "348290", "USERNAME": "trilhado", "CHANGESET": "12555370" }, "geometry": { "type": "Point", "coordinates": [ -43.190045, -22.975947 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1844743861v1", "TIMESTAMP": "2012-07-31T00:03:13Z", "UID": "348290", "USERNAME": "trilhado", "CHANGESET": "12555370" }, "geometry": { "type": "Point", "coordinates": [ -43.187905, -22.975895 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1844743755v1", "TIMESTAMP": "2012-07-31T00:03:10Z", "UID": "348290", "USERNAME": "trilhado", "CHANGESET": "12555370" }, "geometry": { "type": "Point", "coordinates": [ -43.18479, -22.9693 ] } }
+]
+}

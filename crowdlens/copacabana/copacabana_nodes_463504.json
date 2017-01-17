@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "2329608575v2", "TIMESTAMP": "2014-01-06T17:01:54Z", "UID": "463504", "USERNAME": "erickdeoliveiraleal", "CHANGESET": "19847515" }, "geometry": { "type": "Point", "coordinates": [ -43.176460199999951, -22.9661628 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2632272900v2", "TIMESTAMP": "2014-07-12T22:08:47Z", "UID": "463504", "USERNAME": "erickdeoliveiraleal", "CHANGESET": "24109737" }, "geometry": { "type": "Point", "coordinates": [ -43.187035, -22.9709082 ] } },
+{ "type": "Feature", "properties": { "ID_V": "454457680v5", "TIMESTAMP": "2014-07-12T22:08:49Z", "UID": "463504", "USERNAME": "erickdeoliveiraleal", "CHANGESET": "24109737" }, "geometry": { "type": "Point", "coordinates": [ -43.176458799999978, -22.962748099999942 ] } },
+{ "type": "Feature", "properties": { "ID_V": "529749017v4", "TIMESTAMP": "2013-10-18T00:56:02Z", "UID": "463504", "USERNAME": "erickdeoliveiraleal", "CHANGESET": "18412481" }, "geometry": { "type": "Point", "coordinates": [ -43.178446899999983, -22.964065 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2632267334v2", "TIMESTAMP": "2014-03-14T21:02:43Z", "UID": "463504", "USERNAME": "erickdeoliveiraleal", "CHANGESET": "21106799" }, "geometry": { "type": "Point", "coordinates": [ -43.190894699999944, -22.981686 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2646010482v2", "TIMESTAMP": "2014-07-12T22:08:51Z", "UID": "463504", "USERNAME": "erickdeoliveiraleal", "CHANGESET": "24109737" }, "geometry": { "type": "Point", "coordinates": [ -43.194726699999933, -22.9815435 ] } }
+]
+}

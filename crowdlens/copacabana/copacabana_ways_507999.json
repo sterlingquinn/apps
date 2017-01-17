@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "14800590v8", "TIMESTAMP": "2011-08-17T23:33:41Z", "UID": "507999", "USERNAME": "Luciano Gomes", "CHANGESET": "9052929", "SHAPE_Leng": 0.000768 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -43.175935299999935, -22.960912199999939 ], [ -43.175654899999984, -22.961424799999975 ], [ -43.175790199999938, -22.9613 ] ] ] } },
+{ "type": "Feature", "properties": { "ID_V": "30086722v6", "TIMESTAMP": "2011-08-17T23:33:41Z", "UID": "507999", "USERNAME": "Luciano Gomes", "CHANGESET": "9052929", "SHAPE_Leng": 0.000543 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -43.176121199999955, -22.961619699999972 ], [ -43.175987599999985, -22.962145599999928 ] ] ] } },
+{ "type": "Feature", "properties": { "ID_V": "30086727v5", "TIMESTAMP": "2011-08-17T23:33:41Z", "UID": "507999", "USERNAME": "Luciano Gomes", "CHANGESET": "9052929", "SHAPE_Leng": 0.000875 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -43.176759899999979, -22.962822699999947 ], [ -43.177154, -22.962041099999965 ] ] ] } },
+{ "type": "Feature", "properties": { "ID_V": "38438909v5", "TIMESTAMP": "2011-08-17T23:33:40Z", "UID": "507999", "USERNAME": "Luciano Gomes", "CHANGESET": "9052929", "SHAPE_Leng": 0.003662 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -43.175793099999964, -22.9622601 ], [ -43.175255099999958, -22.963424299999929 ], [ -43.1748568, -22.964187699999968 ], [ -43.174806599999954, -22.964297599999952 ], [ -43.174754499999949, -22.964399299999968 ], [ -43.174305799999956, -22.965274799999975 ], [ -43.174282199999936, -22.965283 ], [ -43.174118799999974, -22.965504099999976 ] ] ] } },
+{ "type": "Feature", "properties": { "ID_V": "126573434v1", "TIMESTAMP": "2011-08-17T23:33:40Z", "UID": "507999", "USERNAME": "Luciano Gomes", "CHANGESET": "9052929", "SHAPE_Leng": 0.001625 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -43.177151, -22.962058099999979 ], [ -43.175654899999984, -22.961424799999975 ] ] ] } }
+]
+}

@@ -1,0 +1,22 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "3396671371v1", "TIMESTAMP": "2015-03-13T11:32:48Z", "UID": "1803854", "USERNAME": "Enock4seth", "CHANGESET": "29446081" }, "geometry": { "type": "Point", "coordinates": [ -0.460961099999963, 6.030807300000049 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3396671370v1", "TIMESTAMP": "2015-03-13T11:32:48Z", "UID": "1803854", "USERNAME": "Enock4seth", "CHANGESET": "29446081" }, "geometry": { "type": "Point", "coordinates": [ -0.459231399999965, 6.030792200000064 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3396671373v1", "TIMESTAMP": "2015-03-13T11:32:48Z", "UID": "1803854", "USERNAME": "Enock4seth", "CHANGESET": "29446081" }, "geometry": { "type": "Point", "coordinates": [ -0.460612099999935, 6.030829900000072 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3396671372v1", "TIMESTAMP": "2015-03-13T11:32:48Z", "UID": "1803854", "USERNAME": "Enock4seth", "CHANGESET": "29446081" }, "geometry": { "type": "Point", "coordinates": [ -0.459527299999934, 6.030822400000034 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3396671368v1", "TIMESTAMP": "2015-03-13T11:32:48Z", "UID": "1803854", "USERNAME": "Enock4seth", "CHANGESET": "29446081" }, "geometry": { "type": "Point", "coordinates": [ -0.459853499999952, 6.03067150000004 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3396671369v1", "TIMESTAMP": "2015-03-13T11:32:48Z", "UID": "1803854", "USERNAME": "Enock4seth", "CHANGESET": "29446081" }, "geometry": { "type": "Point", "coordinates": [ -0.46021, 6.030724300000031 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3396671367v1", "TIMESTAMP": "2015-03-13T11:32:48Z", "UID": "1803854", "USERNAME": "Enock4seth", "CHANGESET": "29446081" }, "geometry": { "type": "Point", "coordinates": [ -0.458937799999944, 6.030576900000028 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3396671520v1", "TIMESTAMP": "2015-03-13T11:33:31Z", "UID": "1803854", "USERNAME": "Enock4seth", "CHANGESET": "29446091" }, "geometry": { "type": "Point", "coordinates": [ -0.458768599999928, 6.027797 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3396671521v1", "TIMESTAMP": "2015-03-13T11:33:31Z", "UID": "1803854", "USERNAME": "Enock4seth", "CHANGESET": "29446091" }, "geometry": { "type": "Point", "coordinates": [ -0.4593604, 6.028581700000075 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3396671522v1", "TIMESTAMP": "2015-03-13T11:33:31Z", "UID": "1803854", "USERNAME": "Enock4seth", "CHANGESET": "29446091" }, "geometry": { "type": "Point", "coordinates": [ -0.459390699999972, 6.028747600000031 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3396671523v1", "TIMESTAMP": "2015-03-13T11:33:31Z", "UID": "1803854", "USERNAME": "Enock4seth", "CHANGESET": "29446091" }, "geometry": { "type": "Point", "coordinates": [ -0.459728599999949, 6.028983700000026 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3396671517v1", "TIMESTAMP": "2015-03-13T11:33:31Z", "UID": "1803854", "USERNAME": "Enock4seth", "CHANGESET": "29446091" }, "geometry": { "type": "Point", "coordinates": [ -0.457926499999928, 6.027087800000061 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3396671516v1", "TIMESTAMP": "2015-03-13T11:33:31Z", "UID": "1803854", "USERNAME": "Enock4seth", "CHANGESET": "29446091" }, "geometry": { "type": "Point", "coordinates": [ -0.457691299999965, 6.026718200000062 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3396671519v1", "TIMESTAMP": "2015-03-13T11:33:31Z", "UID": "1803854", "USERNAME": "Enock4seth", "CHANGESET": "29446091" }, "geometry": { "type": "Point", "coordinates": [ -0.458199599999944, 6.027472600000067 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3396671518v1", "TIMESTAMP": "2015-03-13T11:33:31Z", "UID": "1803854", "USERNAME": "Enock4seth", "CHANGESET": "29446091" }, "geometry": { "type": "Point", "coordinates": [ -0.45845, 6.02745 ] } }
+]
+}

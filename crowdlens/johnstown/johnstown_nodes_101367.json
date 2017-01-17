@@ -1,0 +1,22 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "108950054v3", "TIMESTAMP": "2010-12-03T03:02:29Z", "UID": "101367", "USERNAME": "kyamazaki", "CHANGESET": "6522197" }, "geometry": { "type": "Point", "coordinates": [ -78.866427099999953, 40.282643700000051 ] } },
+{ "type": "Feature", "properties": { "ID_V": "109122973v3", "TIMESTAMP": "2010-12-03T03:02:30Z", "UID": "101367", "USERNAME": "kyamazaki", "CHANGESET": "6522197" }, "geometry": { "type": "Point", "coordinates": [ -78.865704499999936, 40.284024900000077 ] } },
+{ "type": "Feature", "properties": { "ID_V": "109175994v3", "TIMESTAMP": "2010-12-03T03:02:30Z", "UID": "101367", "USERNAME": "kyamazaki", "CHANGESET": "6522197" }, "geometry": { "type": "Point", "coordinates": [ -78.8591122, 40.284246300000063 ] } },
+{ "type": "Feature", "properties": { "ID_V": "109122953v3", "TIMESTAMP": "2010-12-03T03:02:30Z", "UID": "101367", "USERNAME": "kyamazaki", "CHANGESET": "6522197" }, "geometry": { "type": "Point", "coordinates": [ -78.866995199999963, 40.283740100000045 ] } },
+{ "type": "Feature", "properties": { "ID_V": "109122941v3", "TIMESTAMP": "2010-12-03T03:02:30Z", "UID": "101367", "USERNAME": "kyamazaki", "CHANGESET": "6522197" }, "geometry": { "type": "Point", "coordinates": [ -78.8681072, 40.283489600000053 ] } },
+{ "type": "Feature", "properties": { "ID_V": "109123034v3", "TIMESTAMP": "2010-12-03T03:02:30Z", "UID": "101367", "USERNAME": "kyamazaki", "CHANGESET": "6522197" }, "geometry": { "type": "Point", "coordinates": [ -78.857080699999983, 40.285890900000027 ] } },
+{ "type": "Feature", "properties": { "ID_V": "109122965v3", "TIMESTAMP": "2010-12-03T03:02:30Z", "UID": "101367", "USERNAME": "kyamazaki", "CHANGESET": "6522197" }, "geometry": { "type": "Point", "coordinates": [ -78.866724799999986, 40.283811700000058 ] } },
+{ "type": "Feature", "properties": { "ID_V": "109123011v3", "TIMESTAMP": "2010-12-03T03:02:30Z", "UID": "101367", "USERNAME": "kyamazaki", "CHANGESET": "6522197" }, "geometry": { "type": "Point", "coordinates": [ -78.859558, 40.28534460000003 ] } },
+{ "type": "Feature", "properties": { "ID_V": "108937478v3", "TIMESTAMP": "2010-12-03T03:02:30Z", "UID": "101367", "USERNAME": "kyamazaki", "CHANGESET": "6522197" }, "geometry": { "type": "Point", "coordinates": [ -78.867170099999953, 40.281557600000042 ] } },
+{ "type": "Feature", "properties": { "ID_V": "108937489v3", "TIMESTAMP": "2010-12-03T03:02:30Z", "UID": "101367", "USERNAME": "kyamazaki", "CHANGESET": "6522197" }, "geometry": { "type": "Point", "coordinates": [ -78.866006, 40.281907900000078 ] } },
+{ "type": "Feature", "properties": { "ID_V": "109023831v3", "TIMESTAMP": "2010-12-03T03:02:30Z", "UID": "101367", "USERNAME": "kyamazaki", "CHANGESET": "6522197" }, "geometry": { "type": "Point", "coordinates": [ -78.8620395, 40.284803200000056 ] } },
+{ "type": "Feature", "properties": { "ID_V": "108964968v3", "TIMESTAMP": "2010-12-03T03:02:30Z", "UID": "101367", "USERNAME": "kyamazaki", "CHANGESET": "6522197" }, "geometry": { "type": "Point", "coordinates": [ -78.860824499999978, 40.285085200000026 ] } },
+{ "type": "Feature", "properties": { "ID_V": "108971076v3", "TIMESTAMP": "2010-12-03T03:02:30Z", "UID": "101367", "USERNAME": "kyamazaki", "CHANGESET": "6522197" }, "geometry": { "type": "Point", "coordinates": [ -78.867077299999949, 40.284527800000035 ] } },
+{ "type": "Feature", "properties": { "ID_V": "108971065v3", "TIMESTAMP": "2010-12-03T03:02:30Z", "UID": "101367", "USERNAME": "kyamazaki", "CHANGESET": "6522197" }, "geometry": { "type": "Point", "coordinates": [ -78.867634599999974, 40.284407900000076 ] } },
+{ "type": "Feature", "properties": { "ID_V": "108950062v3", "TIMESTAMP": "2010-12-03T03:02:30Z", "UID": "101367", "USERNAME": "kyamazaki", "CHANGESET": "6522197" }, "geometry": { "type": "Point", "coordinates": [ -78.867554699999971, 40.282305300000075 ] } }
+]
+}

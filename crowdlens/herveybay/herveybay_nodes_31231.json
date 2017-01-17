@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "140548772v2", "TIMESTAMP": "2009-08-04T07:39:09Z", "UID": "31231", "USERNAME": "Andre68", "CHANGESET": "2032383" }, "geometry": { "type": "Point", "coordinates": [ 152.8933416000001, -25.308428099999958 ] } },
+{ "type": "Feature", "properties": { "ID_V": "140548775v2", "TIMESTAMP": "2009-08-04T07:39:09Z", "UID": "31231", "USERNAME": "Andre68", "CHANGESET": "2032383" }, "geometry": { "type": "Point", "coordinates": [ 152.89287080000008, -25.309757799999943 ] } },
+{ "type": "Feature", "properties": { "ID_V": "140548788v2", "TIMESTAMP": "2009-08-04T07:39:09Z", "UID": "31231", "USERNAME": "Andre68", "CHANGESET": "2032383" }, "geometry": { "type": "Point", "coordinates": [ 152.89732160000005, -25.310404099999971 ] } },
+{ "type": "Feature", "properties": { "ID_V": "140548792v2", "TIMESTAMP": "2009-08-04T07:39:09Z", "UID": "31231", "USERNAME": "Andre68", "CHANGESET": "2032383" }, "geometry": { "type": "Point", "coordinates": [ 152.89453250000008, -25.309046799999976 ] } },
+{ "type": "Feature", "properties": { "ID_V": "140548791v2", "TIMESTAMP": "2009-08-04T07:39:09Z", "UID": "31231", "USERNAME": "Andre68", "CHANGESET": "2032383" }, "geometry": { "type": "Point", "coordinates": [ 152.89608850000002, -25.309838899999932 ] } },
+{ "type": "Feature", "properties": { "ID_V": "140550464v2", "TIMESTAMP": "2009-08-04T07:39:09Z", "UID": "31231", "USERNAME": "Andre68", "CHANGESET": "2032383" }, "geometry": { "type": "Point", "coordinates": [ 152.89558920000002, -25.310820299999932 ] } },
+{ "type": "Feature", "properties": { "ID_V": "140550467v2", "TIMESTAMP": "2009-08-04T07:39:09Z", "UID": "31231", "USERNAME": "Andre68", "CHANGESET": "2032383" }, "geometry": { "type": "Point", "coordinates": [ 152.89400710000007, -25.309475499999962 ] } },
+{ "type": "Feature", "properties": { "ID_V": "140550459v2", "TIMESTAMP": "2009-08-04T07:39:09Z", "UID": "31231", "USERNAME": "Andre68", "CHANGESET": "2032383" }, "geometry": { "type": "Point", "coordinates": [ 152.89548150000007, -25.310115199999927 ] } },
+{ "type": "Feature", "properties": { "ID_V": "455894658v1", "TIMESTAMP": "2009-08-04T07:39:09Z", "UID": "31231", "USERNAME": "Andre68", "CHANGESET": "2032383" }, "geometry": { "type": "Point", "coordinates": [ 152.89428810000004, -25.310366399999964 ] } }
+]
+}

@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "34582418v6", "TIMESTAMP": "2007-12-08T00:36:52Z", "UID": "3762", "USERNAME": "stev", "CHANGESET": "187114" }, "geometry": { "type": "Point", "coordinates": [ -43.183646299999964, -22.968253199999936 ] } },
+{ "type": "Feature", "properties": { "ID_V": "34582418v7", "TIMESTAMP": "2007-12-08T00:37:06Z", "UID": "3762", "USERNAME": "stev", "CHANGESET": "187114" }, "geometry": { "type": "Point", "coordinates": [ -43.183646299999964, -22.968253199999936 ] } },
+{ "type": "Feature", "properties": { "ID_V": "34582418v8", "TIMESTAMP": "2007-12-08T00:37:11Z", "UID": "3762", "USERNAME": "stev", "CHANGESET": "187114" }, "geometry": { "type": "Point", "coordinates": [ -43.183646299999964, -22.968253199999936 ] } },
+{ "type": "Feature", "properties": { "ID_V": "146395088v9", "TIMESTAMP": "2007-12-08T00:36:50Z", "UID": "3762", "USERNAME": "stev", "CHANGESET": "187114" }, "geometry": { "type": "Point", "coordinates": [ -43.184659099999976, -22.961535799999979 ] } },
+{ "type": "Feature", "properties": { "ID_V": "146387090v12", "TIMESTAMP": "2007-12-08T00:36:55Z", "UID": "3762", "USERNAME": "stev", "CHANGESET": "187114" }, "geometry": { "type": "Point", "coordinates": [ -43.197619599999939, -22.9692015 ] } }
+]
+}

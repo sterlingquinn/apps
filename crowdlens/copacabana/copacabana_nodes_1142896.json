@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "412310721v4", "TIMESTAMP": "2013-01-06T20:26:33Z", "UID": "1142896", "USERNAME": "Dandarah Jordão", "CHANGESET": "14555193" }, "geometry": { "type": "Point", "coordinates": [ -43.1890382, -22.986304899999936 ] } },
+{ "type": "Feature", "properties": { "ID_V": "712849124v7", "TIMESTAMP": "2013-02-23T03:27:25Z", "UID": "1142896", "USERNAME": "Dandarah Jordão", "CHANGESET": "15130880" }, "geometry": { "type": "Point", "coordinates": [ -43.194450299999971, -22.975470299999927 ] } },
+{ "type": "Feature", "properties": { "ID_V": "712849116v4", "TIMESTAMP": "2013-02-23T03:27:25Z", "UID": "1142896", "USERNAME": "Dandarah Jordão", "CHANGESET": "15130880" }, "geometry": { "type": "Point", "coordinates": [ -43.196359299999983, -22.982777299999952 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2168289584v1", "TIMESTAMP": "2013-02-23T03:27:25Z", "UID": "1142896", "USERNAME": "Dandarah Jordão", "CHANGESET": "15130880" }, "geometry": { "type": "Point", "coordinates": [ -43.188248899999962, -22.967907899999943 ] } }
+]
+}

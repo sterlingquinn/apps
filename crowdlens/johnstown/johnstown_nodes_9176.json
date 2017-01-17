@@ -1,0 +1,22 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "3042140631v1", "TIMESTAMP": "2014-08-25T20:32:17Z", "UID": "9176", "USERNAME": "Maarten Deen", "CHANGESET": "25013966" }, "geometry": { "type": "Point", "coordinates": [ -78.828834799999981, 40.302149600000064 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3042140632v1", "TIMESTAMP": "2014-08-25T20:32:17Z", "UID": "9176", "USERNAME": "Maarten Deen", "CHANGESET": "25013966" }, "geometry": { "type": "Point", "coordinates": [ -78.822736299999974, 40.302242800000045 ] } },
+{ "type": "Feature", "properties": { "ID_V": "108897215v4", "TIMESTAMP": "2014-08-25T20:32:18Z", "UID": "9176", "USERNAME": "Maarten Deen", "CHANGESET": "25013966" }, "geometry": { "type": "Point", "coordinates": [ -78.822694799999965, 40.302086800000041 ] } },
+{ "type": "Feature", "properties": { "ID_V": "108929701v4", "TIMESTAMP": "2014-08-25T20:32:18Z", "UID": "9176", "USERNAME": "Maarten Deen", "CHANGESET": "25013966" }, "geometry": { "type": "Point", "coordinates": [ -78.8290742, 40.305354700000066 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3042140934v1", "TIMESTAMP": "2014-08-25T20:32:17Z", "UID": "9176", "USERNAME": "Maarten Deen", "CHANGESET": "25013966" }, "geometry": { "type": "Point", "coordinates": [ -78.823240799999951, 40.302355100000057 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3042140935v1", "TIMESTAMP": "2014-08-25T20:32:17Z", "UID": "9176", "USERNAME": "Maarten Deen", "CHANGESET": "25013966" }, "geometry": { "type": "Point", "coordinates": [ -78.828576399999974, 40.302493800000036 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3042140936v1", "TIMESTAMP": "2014-08-25T20:32:17Z", "UID": "9176", "USERNAME": "Maarten Deen", "CHANGESET": "25013966" }, "geometry": { "type": "Point", "coordinates": [ -78.828568599999983, 40.302846700000032 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3042140939v1", "TIMESTAMP": "2014-08-25T20:32:17Z", "UID": "9176", "USERNAME": "Maarten Deen", "CHANGESET": "25013966" }, "geometry": { "type": "Point", "coordinates": [ -78.827970899999968, 40.304039 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3042140940v1", "TIMESTAMP": "2014-08-25T20:32:17Z", "UID": "9176", "USERNAME": "Maarten Deen", "CHANGESET": "25013966" }, "geometry": { "type": "Point", "coordinates": [ -78.828470599999946, 40.304635 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3042140933v1", "TIMESTAMP": "2014-08-25T20:32:17Z", "UID": "9176", "USERNAME": "Maarten Deen", "CHANGESET": "25013966" }, "geometry": { "type": "Point", "coordinates": [ -78.822919, 40.302346800000066 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3042140937v1", "TIMESTAMP": "2014-08-25T20:32:17Z", "UID": "9176", "USERNAME": "Maarten Deen", "CHANGESET": "25013966" }, "geometry": { "type": "Point", "coordinates": [ -78.8275697, 40.303379100000029 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3042140938v1", "TIMESTAMP": "2014-08-25T20:32:17Z", "UID": "9176", "USERNAME": "Maarten Deen", "CHANGESET": "25013966" }, "geometry": { "type": "Point", "coordinates": [ -78.828005599999983, 40.303532100000041 ] } },
+{ "type": "Feature", "properties": { "ID_V": "108736423v4", "TIMESTAMP": "2014-08-25T20:32:17Z", "UID": "9176", "USERNAME": "Maarten Deen", "CHANGESET": "25013966" }, "geometry": { "type": "Point", "coordinates": [ -78.827460499999972, 40.303430300000059 ] } },
+{ "type": "Feature", "properties": { "ID_V": "108736377v4", "TIMESTAMP": "2014-08-25T20:32:17Z", "UID": "9176", "USERNAME": "Maarten Deen", "CHANGESET": "25013966" }, "geometry": { "type": "Point", "coordinates": [ -78.826243499999975, 40.302869500000043 ] } },
+{ "type": "Feature", "properties": { "ID_V": "108736431v3", "TIMESTAMP": "2014-08-25T20:32:17Z", "UID": "9176", "USERNAME": "Maarten Deen", "CHANGESET": "25013966" }, "geometry": { "type": "Point", "coordinates": [ -78.828598599999964, 40.302651900000058 ] } }
+]
+}

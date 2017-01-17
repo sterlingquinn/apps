@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "533910177v1", "TIMESTAMP": "2009-10-16T20:08:43Z", "UID": "57645", "USERNAME": "KartoGrapHiti", "CHANGESET": "2867906" }, "geometry": { "type": "Point", "coordinates": [ -0.464372899999944, 6.053845400000057 ] } },
+{ "type": "Feature", "properties": { "ID_V": "533910177v2", "TIMESTAMP": "2010-10-15T19:35:08Z", "UID": "57645", "USERNAME": "KartoGrapHiti", "CHANGESET": "6051797" }, "geometry": { "type": "Point", "coordinates": [ -0.464624399999934, 6.055971300000067 ] } },
+{ "type": "Feature", "properties": { "ID_V": "533910179v1", "TIMESTAMP": "2009-10-16T20:08:43Z", "UID": "57645", "USERNAME": "KartoGrapHiti", "CHANGESET": "2867906" }, "geometry": { "type": "Point", "coordinates": [ -0.4556269, 6.035275400000046 ] } },
+{ "type": "Feature", "properties": { "ID_V": "950704612v1", "TIMESTAMP": "2010-10-15T19:35:05Z", "UID": "57645", "USERNAME": "KartoGrapHiti", "CHANGESET": "6051797" }, "geometry": { "type": "Point", "coordinates": [ -0.463285199999973, 6.052763800000037 ] } },
+{ "type": "Feature", "properties": { "ID_V": "533910178v1", "TIMESTAMP": "2009-10-16T20:08:43Z", "UID": "57645", "USERNAME": "KartoGrapHiti", "CHANGESET": "2867906" }, "geometry": { "type": "Point", "coordinates": [ -0.461536399999943, 6.051024700000028 ] } }
+]
+}

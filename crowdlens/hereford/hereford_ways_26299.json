@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "219848222v3", "TIMESTAMP": "2015-06-21T10:37:31Z", "UID": "26299", "USERNAME": "uboot", "CHANGESET": "32113986", "SHAPE_Leng": 0.001042 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -2.728277499999933, 52.045938700000079 ], [ -2.728388699999925, 52.045654900000045 ], [ -2.728445, 52.045478400000036 ], [ -2.728466499999968, 52.04530520000003 ], [ -2.728501299999948, 52.045092400000044 ], [ -2.728512, 52.044931 ] ] ] } }
+]
+}

@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "582709218v1", "TIMESTAMP": "2009-12-06T21:00:14Z", "UID": "205535", "USERNAME": "larrya", "CHANGESET": "3309952" }, "geometry": { "type": "Point", "coordinates": [ 152.84831870000005, -25.283698 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1202228784v1", "TIMESTAMP": "2011-03-14T22:05:21Z", "UID": "205535", "USERNAME": "larrya", "CHANGESET": "7561635" }, "geometry": { "type": "Point", "coordinates": [ 152.8370268000001, -25.285174599999948 ] } },
+{ "type": "Feature", "properties": { "ID_V": "582709220v1", "TIMESTAMP": "2009-12-06T21:00:14Z", "UID": "205535", "USERNAME": "larrya", "CHANGESET": "3309952" }, "geometry": { "type": "Point", "coordinates": [ 152.84813930000007, -25.283668 ] } },
+{ "type": "Feature", "properties": { "ID_V": "582709223v1", "TIMESTAMP": "2009-12-06T21:00:14Z", "UID": "205535", "USERNAME": "larrya", "CHANGESET": "3309952" }, "geometry": { "type": "Point", "coordinates": [ 152.847927, -25.283627699999954 ] } },
+{ "type": "Feature", "properties": { "ID_V": "582709185v1", "TIMESTAMP": "2009-12-06T21:00:13Z", "UID": "205535", "USERNAME": "larrya", "CHANGESET": "3309952" }, "geometry": { "type": "Point", "coordinates": [ 152.84864420000008, -25.283264 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1202222576v1", "TIMESTAMP": "2011-03-14T22:00:43Z", "UID": "205535", "USERNAME": "larrya", "CHANGESET": "7561635" }, "geometry": { "type": "Point", "coordinates": [ 152.84799160000011, -25.283525399999974 ] } },
+{ "type": "Feature", "properties": { "ID_V": "582710165v1", "TIMESTAMP": "2009-12-06T21:01:12Z", "UID": "205535", "USERNAME": "larrya", "CHANGESET": "3309952" }, "geometry": { "type": "Point", "coordinates": [ 152.84860720000006, -25.283458 ] } },
+{ "type": "Feature", "properties": { "ID_V": "582709224v1", "TIMESTAMP": "2009-12-06T21:00:14Z", "UID": "205535", "USERNAME": "larrya", "CHANGESET": "3309952" }, "geometry": { "type": "Point", "coordinates": [ 152.84833470000001, -25.283686 ] } },
+{ "type": "Feature", "properties": { "ID_V": "582709226v1", "TIMESTAMP": "2009-12-06T21:00:14Z", "UID": "205535", "USERNAME": "larrya", "CHANGESET": "3309952" }, "geometry": { "type": "Point", "coordinates": [ 152.84863510000002, -25.283753899999965 ] } }
+]
+}

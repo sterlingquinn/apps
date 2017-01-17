@@ -1,0 +1,23 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "109053322v3", "TIMESTAMP": "2012-02-27T11:41:47Z", "UID": "252811", "USERNAME": "rickmastfan67", "CHANGESET": "10807630" }, "geometry": { "type": "Point", "coordinates": [ -78.886930399999983, 40.301335600000073 ] } },
+{ "type": "Feature", "properties": { "ID_V": "635533204v2", "TIMESTAMP": "2011-11-24T10:13:55Z", "UID": "252811", "USERNAME": "rickmastfan67", "CHANGESET": "9931492" }, "geometry": { "type": "Point", "coordinates": [ -78.859414499999957, 40.273404600000049 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1515112719v1", "TIMESTAMP": "2011-11-24T10:13:52Z", "UID": "252811", "USERNAME": "rickmastfan67", "CHANGESET": "9931492" }, "geometry": { "type": "Point", "coordinates": [ -78.859699299999988, 40.27423170000003 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1515112714v1", "TIMESTAMP": "2011-11-24T10:13:52Z", "UID": "252811", "USERNAME": "rickmastfan67", "CHANGESET": "9931492" }, "geometry": { "type": "Point", "coordinates": [ -78.859784699999977, 40.274115900000027 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1515112711v1", "TIMESTAMP": "2011-11-24T10:13:51Z", "UID": "252811", "USERNAME": "rickmastfan67", "CHANGESET": "9931492" }, "geometry": { "type": "Point", "coordinates": [ -78.859876699999973, 40.274049 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1515112728v1", "TIMESTAMP": "2011-11-24T10:13:52Z", "UID": "252811", "USERNAME": "rickmastfan67", "CHANGESET": "9931492" }, "geometry": { "type": "Point", "coordinates": [ -78.859639199999947, 40.274436800000046 ] } },
+{ "type": "Feature", "properties": { "ID_V": "493146425v3", "TIMESTAMP": "2011-11-24T10:13:55Z", "UID": "252811", "USERNAME": "rickmastfan67", "CHANGESET": "9931492" }, "geometry": { "type": "Point", "coordinates": [ -78.859386799999982, 40.274177800000075 ] } },
+{ "type": "Feature", "properties": { "ID_V": "493146455v3", "TIMESTAMP": "2011-11-24T10:13:55Z", "UID": "252811", "USERNAME": "rickmastfan67", "CHANGESET": "9931492" }, "geometry": { "type": "Point", "coordinates": [ -78.858633199999986, 40.273559900000066 ] } },
+{ "type": "Feature", "properties": { "ID_V": "635533212v2", "TIMESTAMP": "2011-11-24T10:13:55Z", "UID": "252811", "USERNAME": "rickmastfan67", "CHANGESET": "9931492" }, "geometry": { "type": "Point", "coordinates": [ -78.859485499999948, 40.274343800000054 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1515112716v1", "TIMESTAMP": "2011-11-24T10:13:52Z", "UID": "252811", "USERNAME": "rickmastfan67", "CHANGESET": "9931492" }, "geometry": { "type": "Point", "coordinates": [ -78.859743599999945, 40.274159300000065 ] } },
+{ "type": "Feature", "properties": { "ID_V": "635521153v2", "TIMESTAMP": "2011-11-24T10:13:55Z", "UID": "252811", "USERNAME": "rickmastfan67", "CHANGESET": "9931492" }, "geometry": { "type": "Point", "coordinates": [ -78.853574899999956, 40.275948 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1515112721v1", "TIMESTAMP": "2011-11-24T10:13:52Z", "UID": "252811", "USERNAME": "rickmastfan67", "CHANGESET": "9931492" }, "geometry": { "type": "Point", "coordinates": [ -78.859664499999951, 40.274316200000044 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1515112729v1", "TIMESTAMP": "2011-11-24T10:13:52Z", "UID": "252811", "USERNAME": "rickmastfan67", "CHANGESET": "9931492" }, "geometry": { "type": "Point", "coordinates": [ -78.859638299999972, 40.274638300000049 ] } },
+{ "type": "Feature", "properties": { "ID_V": "109102457v3", "TIMESTAMP": "2012-02-27T11:41:47Z", "UID": "252811", "USERNAME": "rickmastfan67", "CHANGESET": "10807630" }, "geometry": { "type": "Point", "coordinates": [ -78.885556599999973, 40.30153480000007 ] } },
+{ "type": "Feature", "properties": { "ID_V": "109123233v3", "TIMESTAMP": "2012-02-27T11:41:47Z", "UID": "252811", "USERNAME": "rickmastfan67", "CHANGESET": "10807630" }, "geometry": { "type": "Point", "coordinates": [ -78.887836299999947, 40.300701400000037 ] } },
+{ "type": "Feature", "properties": { "ID_V": "109102443v3", "TIMESTAMP": "2012-02-27T11:41:47Z", "UID": "252811", "USERNAME": "rickmastfan67", "CHANGESET": "10807630" }, "geometry": { "type": "Point", "coordinates": [ -78.886145799999952, 40.301878100000067 ] } }
+]
+}

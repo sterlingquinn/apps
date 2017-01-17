@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "365739773v2", "TIMESTAMP": "2010-01-26T11:16:52Z", "UID": "224884", "USERNAME": "Dezinhorj", "CHANGESET": "3718501" }, "geometry": { "type": "Point", "coordinates": [ -43.1657303, -22.962366699999961 ] } },
+{ "type": "Feature", "properties": { "ID_V": "454457631v2", "TIMESTAMP": "2010-01-26T11:16:54Z", "UID": "224884", "USERNAME": "Dezinhorj", "CHANGESET": "3718501" }, "geometry": { "type": "Point", "coordinates": [ -43.175938199999962, -22.962230599999941 ] } },
+{ "type": "Feature", "properties": { "ID_V": "454457633v2", "TIMESTAMP": "2010-01-26T11:16:55Z", "UID": "224884", "USERNAME": "Dezinhorj", "CHANGESET": "3718501" }, "geometry": { "type": "Point", "coordinates": [ -43.175965699999949, -22.962371399999938 ] } },
+{ "type": "Feature", "properties": { "ID_V": "454457632v2", "TIMESTAMP": "2010-01-26T11:16:56Z", "UID": "224884", "USERNAME": "Dezinhorj", "CHANGESET": "3718501" }, "geometry": { "type": "Point", "coordinates": [ -43.175479199999984, -22.963240199999973 ] } },
+{ "type": "Feature", "properties": { "ID_V": "331388087v14", "TIMESTAMP": "2010-01-26T11:16:55Z", "UID": "224884", "USERNAME": "Dezinhorj", "CHANGESET": "3718501" }, "geometry": { "type": "Point", "coordinates": [ -43.174118799999974, -22.965504099999976 ] } },
+{ "type": "Feature", "properties": { "ID_V": "331388086v8", "TIMESTAMP": "2010-01-26T11:16:54Z", "UID": "224884", "USERNAME": "Dezinhorj", "CHANGESET": "3718501" }, "geometry": { "type": "Point", "coordinates": [ -43.174778799999956, -22.964272799999947 ] } },
+{ "type": "Feature", "properties": { "ID_V": "331388085v7", "TIMESTAMP": "2010-01-26T11:16:54Z", "UID": "224884", "USERNAME": "Dezinhorj", "CHANGESET": "3718501" }, "geometry": { "type": "Point", "coordinates": [ -43.175324699999976, -22.963315899999941 ] } },
+{ "type": "Feature", "properties": { "ID_V": "148201822v25", "TIMESTAMP": "2010-01-26T11:16:55Z", "UID": "224884", "USERNAME": "Dezinhorj", "CHANGESET": "3718501" }, "geometry": { "type": "Point", "coordinates": [ -43.174263799999949, -22.965260699999931 ] } }
+]
+}

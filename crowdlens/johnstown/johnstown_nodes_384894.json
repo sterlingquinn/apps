@@ -1,0 +1,24 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "1307472348v1", "TIMESTAMP": "2011-06-01T06:27:38Z", "UID": "384894", "USERNAME": "Trex2001", "CHANGESET": "8307570" }, "geometry": { "type": "Point", "coordinates": [ -78.928441799999973, 40.325223600000072 ] } },
+{ "type": "Feature", "properties": { "ID_V": "702004282v2", "TIMESTAMP": "2011-06-01T06:27:39Z", "UID": "384894", "USERNAME": "Trex2001", "CHANGESET": "8307570" }, "geometry": { "type": "Point", "coordinates": [ -78.925753399999962, 40.325900800000056 ] } },
+{ "type": "Feature", "properties": { "ID_V": "702004286v2", "TIMESTAMP": "2011-06-01T06:27:39Z", "UID": "384894", "USERNAME": "Trex2001", "CHANGESET": "8307570" }, "geometry": { "type": "Point", "coordinates": [ -78.928761499999951, 40.325513800000067 ] } },
+{ "type": "Feature", "properties": { "ID_V": "702004284v2", "TIMESTAMP": "2011-06-01T06:27:38Z", "UID": "384894", "USERNAME": "Trex2001", "CHANGESET": "8307570" }, "geometry": { "type": "Point", "coordinates": [ -78.925869299999988, 40.325887600000044 ] } },
+{ "type": "Feature", "properties": { "ID_V": "702004284v3", "TIMESTAMP": "2011-06-01T06:54:55Z", "UID": "384894", "USERNAME": "Trex2001", "CHANGESET": "8307670" }, "geometry": { "type": "Point", "coordinates": [ -78.925869299999988, 40.325887600000044 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1307472353v1", "TIMESTAMP": "2011-06-01T06:27:38Z", "UID": "384894", "USERNAME": "Trex2001", "CHANGESET": "8307570" }, "geometry": { "type": "Point", "coordinates": [ -78.928487399999938, 40.325643600000035 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1307472356v1", "TIMESTAMP": "2011-06-01T06:27:38Z", "UID": "384894", "USERNAME": "Trex2001", "CHANGESET": "8307570" }, "geometry": { "type": "Point", "coordinates": [ -78.925823199999968, 40.325960700000053 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1307472334v1", "TIMESTAMP": "2011-06-01T06:27:37Z", "UID": "384894", "USERNAME": "Trex2001", "CHANGESET": "8307570" }, "geometry": { "type": "Point", "coordinates": [ -78.928437599999938, 40.325506100000041 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1307472344v1", "TIMESTAMP": "2011-06-01T06:27:38Z", "UID": "384894", "USERNAME": "Trex2001", "CHANGESET": "8307570" }, "geometry": { "type": "Point", "coordinates": [ -78.928506199999958, 40.325685500000077 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1307472347v1", "TIMESTAMP": "2011-06-01T06:27:38Z", "UID": "384894", "USERNAME": "Trex2001", "CHANGESET": "8307570" }, "geometry": { "type": "Point", "coordinates": [ -78.925777099999948, 40.325837800000045 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1307472342v1", "TIMESTAMP": "2011-06-01T06:27:38Z", "UID": "384894", "USERNAME": "Trex2001", "CHANGESET": "8307570" }, "geometry": { "type": "Point", "coordinates": [ -78.928506199999958, 40.325370600000042 ] } },
+{ "type": "Feature", "properties": { "ID_V": "702004285v2", "TIMESTAMP": "2011-06-01T06:27:39Z", "UID": "384894", "USERNAME": "Trex2001", "CHANGESET": "8307570" }, "geometry": { "type": "Point", "coordinates": [ -78.928553699999952, 40.325558900000033 ] } },
+{ "type": "Feature", "properties": { "ID_V": "702004285v3", "TIMESTAMP": "2011-06-01T06:54:55Z", "UID": "384894", "USERNAME": "Trex2001", "CHANGESET": "8307670" }, "geometry": { "type": "Point", "coordinates": [ -78.928553699999952, 40.325558900000033 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1307472358v1", "TIMESTAMP": "2011-06-01T06:27:38Z", "UID": "384894", "USERNAME": "Trex2001", "CHANGESET": "8307570" }, "geometry": { "type": "Point", "coordinates": [ -78.928597, 40.325472600000069 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1307472351v1", "TIMESTAMP": "2011-06-01T06:27:38Z", "UID": "384894", "USERNAME": "Trex2001", "CHANGESET": "8307570" }, "geometry": { "type": "Point", "coordinates": [ -78.925962199999958, 40.325930400000061 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1307472338v1", "TIMESTAMP": "2011-06-01T06:27:37Z", "UID": "384894", "USERNAME": "Trex2001", "CHANGESET": "8307570" }, "geometry": { "type": "Point", "coordinates": [ -78.925916199999961, 40.325807500000053 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1307472360v1", "TIMESTAMP": "2011-06-01T06:27:38Z", "UID": "384894", "USERNAME": "Trex2001", "CHANGESET": "8307570" }, "geometry": { "type": "Point", "coordinates": [ -78.928646799999967, 40.325610100000063 ] } }
+]
+}

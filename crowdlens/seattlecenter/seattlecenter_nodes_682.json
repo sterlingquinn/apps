@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "53146391v3", "TIMESTAMP": "2008-07-26T20:14:33Z", "UID": "682", "USERNAME": "SteveC", "CHANGESET": "603233" }, "geometry": { "type": "Point", "coordinates": [ -122.350291, 47.618559700000048 ] } },
+{ "type": "Feature", "properties": { "ID_V": "53147420v2", "TIMESTAMP": "2008-07-26T20:14:33Z", "UID": "682", "USERNAME": "SteveC", "CHANGESET": "603233" }, "geometry": { "type": "Point", "coordinates": [ -122.3513522, 47.618562800000063 ] } },
+{ "type": "Feature", "properties": { "ID_V": "53144754v3", "TIMESTAMP": "2008-07-26T20:14:33Z", "UID": "682", "USERNAME": "SteveC", "CHANGESET": "603233" }, "geometry": { "type": "Point", "coordinates": [ -122.3554438, 47.618574600000045 ] } },
+{ "type": "Feature", "properties": { "ID_V": "53128144v2", "TIMESTAMP": "2008-07-26T20:14:34Z", "UID": "682", "USERNAME": "SteveC", "CHANGESET": "603233" }, "geometry": { "type": "Point", "coordinates": [ -122.3489046, 47.618555700000059 ] } },
+{ "type": "Feature", "properties": { "ID_V": "53144604v3", "TIMESTAMP": "2008-07-26T20:14:33Z", "UID": "682", "USERNAME": "SteveC", "CHANGESET": "603233" }, "geometry": { "type": "Point", "coordinates": [ -122.3528214, 47.618567100000064 ] } },
+{ "type": "Feature", "properties": { "ID_V": "53147424v2", "TIMESTAMP": "2008-07-26T20:14:34Z", "UID": "682", "USERNAME": "SteveC", "CHANGESET": "603233" }, "geometry": { "type": "Point", "coordinates": [ -122.3475814, 47.618551800000034 ] } },
+{ "type": "Feature", "properties": { "ID_V": "53147422v2", "TIMESTAMP": "2008-07-26T20:14:34Z", "UID": "682", "USERNAME": "SteveC", "CHANGESET": "603233" }, "geometry": { "type": "Point", "coordinates": [ -122.3486563, 47.618555 ] } },
+{ "type": "Feature", "properties": { "ID_V": "53146026v3", "TIMESTAMP": "2008-07-26T20:14:33Z", "UID": "682", "USERNAME": "SteveC", "CHANGESET": "603233" }, "geometry": { "type": "Point", "coordinates": [ -122.3540892, 47.618570700000078 ] } }
+]
+}

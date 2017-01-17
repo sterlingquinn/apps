@@ -1,0 +1,29 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "278959948v1", "TIMESTAMP": "2008-07-16T16:05:18Z", "UID": "11354", "USERNAME": "Max Bott", "CHANGESET": "506592" }, "geometry": { "type": "Point", "coordinates": [ 152.88731010000004, -25.3212689 ] } },
+{ "type": "Feature", "properties": { "ID_V": "278959946v1", "TIMESTAMP": "2008-07-16T16:05:18Z", "UID": "11354", "USERNAME": "Max Bott", "CHANGESET": "506592" }, "geometry": { "type": "Point", "coordinates": [ 152.88644320000003, -25.320648199999937 ] } },
+{ "type": "Feature", "properties": { "ID_V": "278959947v1", "TIMESTAMP": "2008-07-16T16:05:18Z", "UID": "11354", "USERNAME": "Max Bott", "CHANGESET": "506592" }, "geometry": { "type": "Point", "coordinates": [ 152.88684660000001, -25.320997399999953 ] } },
+{ "type": "Feature", "properties": { "ID_V": "278959944v1", "TIMESTAMP": "2008-07-16T16:05:18Z", "UID": "11354", "USERNAME": "Max Bott", "CHANGESET": "506592" }, "geometry": { "type": "Point", "coordinates": [ 152.88591960000008, -25.320043099999964 ] } },
+{ "type": "Feature", "properties": { "ID_V": "278959945v1", "TIMESTAMP": "2008-07-16T16:05:18Z", "UID": "11354", "USERNAME": "Max Bott", "CHANGESET": "506592" }, "geometry": { "type": "Point", "coordinates": [ 152.88608270000009, -25.320198199999936 ] } },
+{ "type": "Feature", "properties": { "ID_V": "278959954v1", "TIMESTAMP": "2008-07-16T16:05:18Z", "UID": "11354", "USERNAME": "Max Bott", "CHANGESET": "506592" }, "geometry": { "type": "Point", "coordinates": [ 152.89252860000011, -25.323782599999959 ] } },
+{ "type": "Feature", "properties": { "ID_V": "278959951v1", "TIMESTAMP": "2008-07-16T16:05:18Z", "UID": "11354", "USERNAME": "Max Bott", "CHANGESET": "506592" }, "geometry": { "type": "Point", "coordinates": [ 152.89150720000009, -25.323549899999932 ] } },
+{ "type": "Feature", "properties": { "ID_V": "278959950v1", "TIMESTAMP": "2008-07-16T16:05:18Z", "UID": "11354", "USERNAME": "Max Bott", "CHANGESET": "506592" }, "geometry": { "type": "Point", "coordinates": [ 152.88996230000009, -25.322727499999928 ] } },
+{ "type": "Feature", "properties": { "ID_V": "278959953v1", "TIMESTAMP": "2008-07-16T16:05:18Z", "UID": "11354", "USERNAME": "Max Bott", "CHANGESET": "506592" }, "geometry": { "type": "Point", "coordinates": [ 152.89225390000001, -25.323782599999959 ] } },
+{ "type": "Feature", "properties": { "ID_V": "278959952v1", "TIMESTAMP": "2008-07-16T16:05:18Z", "UID": "11354", "USERNAME": "Max Bott", "CHANGESET": "506592" }, "geometry": { "type": "Point", "coordinates": [ 152.89202220000004, -25.3237516 ] } },
+{ "type": "Feature", "properties": { "ID_V": "279125092v1", "TIMESTAMP": "2008-07-17T13:25:23Z", "UID": "11354", "USERNAME": "Max Bott", "CHANGESET": "517681" }, "geometry": { "type": "Point", "coordinates": [ 152.89205040000002, -25.314915099999951 ] } },
+{ "type": "Feature", "properties": { "ID_V": "279125090v1", "TIMESTAMP": "2008-07-17T13:25:23Z", "UID": "11354", "USERNAME": "Max Bott", "CHANGESET": "517681" }, "geometry": { "type": "Point", "coordinates": [ 152.89025650000008, -25.311648599999955 ] } },
+{ "type": "Feature", "properties": { "ID_V": "279125091v1", "TIMESTAMP": "2008-07-17T13:25:23Z", "UID": "11354", "USERNAME": "Max Bott", "CHANGESET": "517681" }, "geometry": { "type": "Point", "coordinates": [ 152.89189590000012, -25.314496099999928 ] } },
+{ "type": "Feature", "properties": { "ID_V": "279125094v1", "TIMESTAMP": "2008-07-17T13:25:23Z", "UID": "11354", "USERNAME": "Max Bott", "CHANGESET": "517681" }, "geometry": { "type": "Point", "coordinates": [ 152.89324340000007, -25.321385799999973 ] } },
+{ "type": "Feature", "properties": { "ID_V": "279125095v1", "TIMESTAMP": "2008-07-17T13:25:23Z", "UID": "11354", "USERNAME": "Max Bott", "CHANGESET": "517681" }, "geometry": { "type": "Point", "coordinates": [ 152.8945824000001, -25.328849199999979 ] } },
+{ "type": "Feature", "properties": { "ID_V": "278959928v1", "TIMESTAMP": "2008-07-16T16:04:24Z", "UID": "11354", "USERNAME": "Max Bott", "CHANGESET": "506592" }, "geometry": { "type": "Point", "coordinates": [ 152.89366160000009, -25.323658499999965 ] } },
+{ "type": "Feature", "properties": { "ID_V": "278959927v1", "TIMESTAMP": "2008-07-16T16:04:24Z", "UID": "11354", "USERNAME": "Max Bott", "CHANGESET": "506592" }, "geometry": { "type": "Point", "coordinates": [ 152.89283760000012, -25.323743799999932 ] } },
+{ "type": "Feature", "properties": { "ID_V": "279125089v1", "TIMESTAMP": "2008-07-17T13:25:23Z", "UID": "11354", "USERNAME": "Max Bott", "CHANGESET": "517681" }, "geometry": { "type": "Point", "coordinates": [ 152.88960420000012, -25.310345 ] } },
+{ "type": "Feature", "properties": { "ID_V": "279125088v1", "TIMESTAMP": "2008-07-17T13:25:23Z", "UID": "11354", "USERNAME": "Max Bott", "CHANGESET": "517681" }, "geometry": { "type": "Point", "coordinates": [ 152.88948410000012, -25.3100347 ] } },
+{ "type": "Feature", "properties": { "ID_V": "279125087v1", "TIMESTAMP": "2008-07-17T13:25:23Z", "UID": "11354", "USERNAME": "Max Bott", "CHANGESET": "517681" }, "geometry": { "type": "Point", "coordinates": [ 152.888188, -25.304641899999979 ] } },
+{ "type": "Feature", "properties": { "ID_V": "278959949v1", "TIMESTAMP": "2008-07-16T16:05:18Z", "UID": "11354", "USERNAME": "Max Bott", "CHANGESET": "506592" }, "geometry": { "type": "Point", "coordinates": [ 152.88951590000011, -25.322479199999975 ] } },
+{ "type": "Feature", "properties": { "ID_V": "279125093v1", "TIMESTAMP": "2008-07-17T13:25:23Z", "UID": "11354", "USERNAME": "Max Bott", "CHANGESET": "517681" }, "geometry": { "type": "Point", "coordinates": [ 152.89232510000011, -25.316381499999977 ] } }
+]
+}

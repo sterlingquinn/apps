@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "563664428v3", "TIMESTAMP": "2010-09-01T16:43:38Z", "UID": "82783", "USERNAME": "Paul The Archivist", "CHANGESET": "5655225" }, "geometry": { "type": "Point", "coordinates": [ -2.719020799999953, 52.061303800000076 ] } }
+]
+}

@@ -1,0 +1,29 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "2444569477v1", "TIMESTAMP": "2013-09-03T14:55:58Z", "UID": "362549", "USERNAME": "Offroaded", "CHANGESET": "17655504" }, "geometry": { "type": "Point", "coordinates": [ -2.733704099999955, 52.04222070000003 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2444569476v1", "TIMESTAMP": "2013-09-03T14:55:58Z", "UID": "362549", "USERNAME": "Offroaded", "CHANGESET": "17655504" }, "geometry": { "type": "Point", "coordinates": [ -2.733748699999978, 52.04210420000004 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2444569475v1", "TIMESTAMP": "2013-09-03T14:55:58Z", "UID": "362549", "USERNAME": "Offroaded", "CHANGESET": "17655504" }, "geometry": { "type": "Point", "coordinates": [ -2.733664799999929, 52.04198910000008 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2444569474v1", "TIMESTAMP": "2013-09-03T14:55:58Z", "UID": "362549", "USERNAME": "Offroaded", "CHANGESET": "17655504" }, "geometry": { "type": "Point", "coordinates": [ -2.7335794, 52.04196660000008 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2444569473v1", "TIMESTAMP": "2013-09-03T14:55:58Z", "UID": "362549", "USERNAME": "Offroaded", "CHANGESET": "17655504" }, "geometry": { "type": "Point", "coordinates": [ -2.7336059, 52.041906800000049 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2444569472v1", "TIMESTAMP": "2013-09-03T14:55:58Z", "UID": "362549", "USERNAME": "Offroaded", "CHANGESET": "17655504" }, "geometry": { "type": "Point", "coordinates": [ -2.733687, 52.041917700000056 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2444569479v1", "TIMESTAMP": "2013-09-03T14:55:58Z", "UID": "362549", "USERNAME": "Offroaded", "CHANGESET": "17655504" }, "geometry": { "type": "Point", "coordinates": [ -2.733705, 52.042376 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2444569478v1", "TIMESTAMP": "2013-09-03T14:55:58Z", "UID": "362549", "USERNAME": "Offroaded", "CHANGESET": "17655504" }, "geometry": { "type": "Point", "coordinates": [ -2.733761199999947, 52.042229 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2444569485v1", "TIMESTAMP": "2013-09-03T14:55:58Z", "UID": "362549", "USERNAME": "Offroaded", "CHANGESET": "17655504" }, "geometry": { "type": "Point", "coordinates": [ -2.734019499999931, 52.042221300000051 ] } },
+{ "type": "Feature", "properties": { "ID_V": "406626665v2", "TIMESTAMP": "2013-09-03T14:55:58Z", "UID": "362549", "USERNAME": "Offroaded", "CHANGESET": "17655504" }, "geometry": { "type": "Point", "coordinates": [ -2.733646699999952, 52.042034900000033 ] } },
+{ "type": "Feature", "properties": { "ID_V": "406626667v2", "TIMESTAMP": "2013-09-03T14:55:58Z", "UID": "362549", "USERNAME": "Offroaded", "CHANGESET": "17655504" }, "geometry": { "type": "Point", "coordinates": [ -2.733700399999975, 52.041888 ] } },
+{ "type": "Feature", "properties": { "ID_V": "406626661v2", "TIMESTAMP": "2013-09-03T14:55:58Z", "UID": "362549", "USERNAME": "Offroaded", "CHANGESET": "17655504" }, "geometry": { "type": "Point", "coordinates": [ -2.734054399999934, 52.042094300000031 ] } },
+{ "type": "Feature", "properties": { "ID_V": "406626663v2", "TIMESTAMP": "2013-09-03T14:55:58Z", "UID": "362549", "USERNAME": "Offroaded", "CHANGESET": "17655504" }, "geometry": { "type": "Point", "coordinates": [ -2.734121499999958, 52.041945800000065 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2444569488v1", "TIMESTAMP": "2013-09-03T14:55:58Z", "UID": "362549", "USERNAME": "Offroaded", "CHANGESET": "17655504" }, "geometry": { "type": "Point", "coordinates": [ -2.733907199999976, 52.042115 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2444569489v1", "TIMESTAMP": "2013-09-03T14:55:58Z", "UID": "362549", "USERNAME": "Offroaded", "CHANGESET": "17655504" }, "geometry": { "type": "Point", "coordinates": [ -2.733902899999976, 52.042126500000052 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2444569482v1", "TIMESTAMP": "2013-09-03T14:55:58Z", "UID": "362549", "USERNAME": "Offroaded", "CHANGESET": "17655504" }, "geometry": { "type": "Point", "coordinates": [ -2.733916199999953, 52.042387700000063 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2444569483v1", "TIMESTAMP": "2013-09-03T14:55:58Z", "UID": "362549", "USERNAME": "Offroaded", "CHANGESET": "17655504" }, "geometry": { "type": "Point", "coordinates": [ -2.7339587, 52.042276600000037 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2444569480v1", "TIMESTAMP": "2013-09-03T14:55:58Z", "UID": "362549", "USERNAME": "Offroaded", "CHANGESET": "17655504" }, "geometry": { "type": "Point", "coordinates": [ -2.733775299999934, 52.042386100000044 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2444569481v1", "TIMESTAMP": "2013-09-03T14:55:58Z", "UID": "362549", "USERNAME": "Offroaded", "CHANGESET": "17655504" }, "geometry": { "type": "Point", "coordinates": [ -2.733782199999951, 52.042368300000078 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2444569486v1", "TIMESTAMP": "2013-09-03T14:55:58Z", "UID": "362549", "USERNAME": "Offroaded", "CHANGESET": "17655504" }, "geometry": { "type": "Point", "coordinates": [ -2.733973899999967, 52.042214700000045 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2444569487v1", "TIMESTAMP": "2013-09-03T14:55:58Z", "UID": "362549", "USERNAME": "Offroaded", "CHANGESET": "17655504" }, "geometry": { "type": "Point", "coordinates": [ -2.7340066, 52.042129400000078 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2444569484v1", "TIMESTAMP": "2013-09-03T14:55:58Z", "UID": "362549", "USERNAME": "Offroaded", "CHANGESET": "17655504" }, "geometry": { "type": "Point", "coordinates": [ -2.733996299999944, 52.042282100000079 ] } }
+]
+}

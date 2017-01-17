@@ -1,0 +1,23 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "273661v2", "TIMESTAMP": "2009-03-26T16:03:42Z", "UID": "111082", "USERNAME": "Mark Slater", "CHANGESET": "862394" }, "geometry": { "type": "Point", "coordinates": [ -2.724329299999965, 52.057149500000037 ] } },
+{ "type": "Feature", "properties": { "ID_V": "23718090v3", "TIMESTAMP": "2009-03-26T16:03:41Z", "UID": "111082", "USERNAME": "Mark Slater", "CHANGESET": "862394" }, "geometry": { "type": "Point", "coordinates": [ -2.730592599999966, 52.058617600000048 ] } },
+{ "type": "Feature", "properties": { "ID_V": "96004480v2", "TIMESTAMP": "2009-03-26T16:03:40Z", "UID": "111082", "USERNAME": "Mark Slater", "CHANGESET": "862394" }, "geometry": { "type": "Point", "coordinates": [ -2.7352095, 52.059529600000076 ] } },
+{ "type": "Feature", "properties": { "ID_V": "96004480v3", "TIMESTAMP": "2009-03-26T16:03:41Z", "UID": "111082", "USERNAME": "Mark Slater", "CHANGESET": "862394" }, "geometry": { "type": "Point", "coordinates": [ -2.7352095, 52.059529600000076 ] } },
+{ "type": "Feature", "properties": { "ID_V": "96004442v2", "TIMESTAMP": "2009-03-26T16:03:43Z", "UID": "111082", "USERNAME": "Mark Slater", "CHANGESET": "862394" }, "geometry": { "type": "Point", "coordinates": [ -2.737502899999925, 52.060869500000081 ] } },
+{ "type": "Feature", "properties": { "ID_V": "96004445v2", "TIMESTAMP": "2009-03-26T16:03:43Z", "UID": "111082", "USERNAME": "Mark Slater", "CHANGESET": "862394" }, "geometry": { "type": "Point", "coordinates": [ -2.736430799999937, 52.060563200000047 ] } },
+{ "type": "Feature", "properties": { "ID_V": "23720106v3", "TIMESTAMP": "2009-03-26T16:03:42Z", "UID": "111082", "USERNAME": "Mark Slater", "CHANGESET": "862394" }, "geometry": { "type": "Point", "coordinates": [ -2.730272799999966, 52.059047100000043 ] } },
+{ "type": "Feature", "properties": { "ID_V": "96004458v2", "TIMESTAMP": "2009-03-26T16:03:42Z", "UID": "111082", "USERNAME": "Mark Slater", "CHANGESET": "862394" }, "geometry": { "type": "Point", "coordinates": [ -2.734401399999968, 52.059912300000065 ] } },
+{ "type": "Feature", "properties": { "ID_V": "96004474v2", "TIMESTAMP": "2009-03-26T16:03:41Z", "UID": "111082", "USERNAME": "Mark Slater", "CHANGESET": "862394" }, "geometry": { "type": "Point", "coordinates": [ -2.7341979, 52.059341400000051 ] } },
+{ "type": "Feature", "properties": { "ID_V": "96004478v2", "TIMESTAMP": "2009-03-26T16:03:41Z", "UID": "111082", "USERNAME": "Mark Slater", "CHANGESET": "862394" }, "geometry": { "type": "Point", "coordinates": [ -2.7325747, 52.058965 ] } },
+{ "type": "Feature", "properties": { "ID_V": "96004463v2", "TIMESTAMP": "2009-03-26T16:03:42Z", "UID": "111082", "USERNAME": "Mark Slater", "CHANGESET": "862394" }, "geometry": { "type": "Point", "coordinates": [ -2.734762499999931, 52.060023600000079 ] } },
+{ "type": "Feature", "properties": { "ID_V": "273657v2", "TIMESTAMP": "2009-03-26T16:03:42Z", "UID": "111082", "USERNAME": "Mark Slater", "CHANGESET": "862394" }, "geometry": { "type": "Point", "coordinates": [ -2.729599599999972, 52.058795600000053 ] } },
+{ "type": "Feature", "properties": { "ID_V": "273656v2", "TIMESTAMP": "2009-03-26T16:03:43Z", "UID": "111082", "USERNAME": "Mark Slater", "CHANGESET": "862394" }, "geometry": { "type": "Point", "coordinates": [ -2.735299599999962, 52.060086700000056 ] } },
+{ "type": "Feature", "properties": { "ID_V": "273655v4", "TIMESTAMP": "2009-03-26T16:03:43Z", "UID": "111082", "USERNAME": "Mark Slater", "CHANGESET": "862394" }, "geometry": { "type": "Point", "coordinates": [ -2.740799599999946, 52.062054200000034 ] } },
+{ "type": "Feature", "properties": { "ID_V": "273659v2", "TIMESTAMP": "2009-03-26T16:03:42Z", "UID": "111082", "USERNAME": "Mark Slater", "CHANGESET": "862394" }, "geometry": { "type": "Point", "coordinates": [ -2.725781099999949, 52.057518 ] } },
+{ "type": "Feature", "properties": { "ID_V": "273658v2", "TIMESTAMP": "2009-03-26T16:03:42Z", "UID": "111082", "USERNAME": "Mark Slater", "CHANGESET": "862394" }, "geometry": { "type": "Point", "coordinates": [ -2.727599599999962, 52.058488100000034 ] } }
+]
+}

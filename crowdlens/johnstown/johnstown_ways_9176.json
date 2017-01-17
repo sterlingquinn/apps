@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "12020257v2", "TIMESTAMP": "2014-08-25T20:32:17Z", "UID": "9176", "USERNAME": "Maarten Deen", "CHANGESET": "25013966", "SHAPE_Leng": 0.002257 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -78.827460499999972, 40.303430300000059 ], [ -78.8275697, 40.303379100000029 ], [ -78.828005599999983, 40.303532100000041 ], [ -78.828568599999983, 40.302846700000032 ], [ -78.828598599999964, 40.302651900000058 ], [ -78.828576399999974, 40.302493800000036 ], [ -78.828834799999981, 40.302149600000064 ] ] ] } },
+{ "type": "Feature", "properties": { "ID_V": "12058928v4", "TIMESTAMP": "2014-08-25T20:32:17Z", "UID": "9176", "USERNAME": "Maarten Deen", "CHANGESET": "25013966", "SHAPE_Leng": 0.005894 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -78.822555299999976, 40.302253 ], [ -78.822736299999974, 40.302242800000045 ], [ -78.822919, 40.302346800000066 ], [ -78.823240799999951, 40.302355100000057 ], [ -78.826243499999975, 40.302869500000043 ], [ -78.827460499999972, 40.303430300000059 ], [ -78.827970899999968, 40.304039 ] ] ] } },
+{ "type": "Feature", "properties": { "ID_V": "40664698v2", "TIMESTAMP": "2014-08-25T21:40:01Z", "UID": "9176", "USERNAME": "Maarten Deen", "CHANGESET": "25015383", "SHAPE_Leng": 0.000922 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -78.833472499999971, 40.301423600000078 ], [ -78.833224399999949, 40.302311800000041 ] ] ] } },
+{ "type": "Feature", "properties": { "ID_V": "300114488v1", "TIMESTAMP": "2014-08-25T20:32:17Z", "UID": "9176", "USERNAME": "Maarten Deen", "CHANGESET": "25013966", "SHAPE_Leng": 0.000931 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -78.828470599999946, 40.304635 ], [ -78.829035599999941, 40.305375300000037 ] ] ] } },
+{ "type": "Feature", "properties": { "ID_V": "300114489v1", "TIMESTAMP": "2014-08-25T20:32:17Z", "UID": "9176", "USERNAME": "Maarten Deen", "CHANGESET": "25013966", "SHAPE_Leng": 0.000778 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -78.827970899999968, 40.304039 ], [ -78.828470599999946, 40.304635 ] ] ] } }
+]
+}

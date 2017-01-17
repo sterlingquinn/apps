@@ -1,0 +1,22 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "3323122604v2", "TIMESTAMP": "2015-11-25T06:53:57Z", "UID": "439726", "USERNAME": "chandusekharreddy", "CHANGESET": "35565177" }, "geometry": { "type": "Point", "coordinates": [ 78.151260100000059, 14.110840900000028 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3858379460v1", "TIMESTAMP": "2015-11-25T06:53:57Z", "UID": "439726", "USERNAME": "chandusekharreddy", "CHANGESET": "35565177" }, "geometry": { "type": "Point", "coordinates": [ 78.149733800000035, 14.110024500000065 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3858379458v1", "TIMESTAMP": "2015-11-25T06:53:57Z", "UID": "439726", "USERNAME": "chandusekharreddy", "CHANGESET": "35565177" }, "geometry": { "type": "Point", "coordinates": [ 78.15105520000003, 14.110736700000075 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3858376955v1", "TIMESTAMP": "2015-11-25T06:53:57Z", "UID": "439726", "USERNAME": "chandusekharreddy", "CHANGESET": "35565177" }, "geometry": { "type": "Point", "coordinates": [ 78.151490900000056, 14.110947900000042 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3858376952v1", "TIMESTAMP": "2015-11-25T06:53:57Z", "UID": "439726", "USERNAME": "chandusekharreddy", "CHANGESET": "35565177" }, "geometry": { "type": "Point", "coordinates": [ 78.151694900000052, 14.110991900000045 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3858376953v1", "TIMESTAMP": "2015-11-25T06:53:57Z", "UID": "439726", "USERNAME": "chandusekharreddy", "CHANGESET": "35565177" }, "geometry": { "type": "Point", "coordinates": [ 78.151603800000032, 14.110979100000066 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3858376950v1", "TIMESTAMP": "2015-11-25T06:53:57Z", "UID": "439726", "USERNAME": "chandusekharreddy", "CHANGESET": "35565177" }, "geometry": { "type": "Point", "coordinates": [ 78.151787400000046, 14.110986700000069 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3858376951v1", "TIMESTAMP": "2015-11-25T06:53:57Z", "UID": "439726", "USERNAME": "chandusekharreddy", "CHANGESET": "35565177" }, "geometry": { "type": "Point", "coordinates": [ 78.151742700000057, 14.110991900000045 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3858379457v1", "TIMESTAMP": "2015-11-25T06:53:57Z", "UID": "439726", "USERNAME": "chandusekharreddy", "CHANGESET": "35565177" }, "geometry": { "type": "Point", "coordinates": [ 78.151411100000075, 14.110911500000043 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3858376956v1", "TIMESTAMP": "2015-11-25T06:53:57Z", "UID": "439726", "USERNAME": "chandusekharreddy", "CHANGESET": "35565177" }, "geometry": { "type": "Point", "coordinates": [ 78.15145190000004, 14.110930500000052 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3858376954v1", "TIMESTAMP": "2015-11-25T06:53:57Z", "UID": "439726", "USERNAME": "chandusekharreddy", "CHANGESET": "35565177" }, "geometry": { "type": "Point", "coordinates": [ 78.151565300000073, 14.110971300000074 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3858376949v1", "TIMESTAMP": "2015-11-25T06:53:57Z", "UID": "439726", "USERNAME": "chandusekharreddy", "CHANGESET": "35565177" }, "geometry": { "type": "Point", "coordinates": [ 78.15181890000008, 14.110982200000024 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3858379459v1", "TIMESTAMP": "2015-11-25T06:53:57Z", "UID": "439726", "USERNAME": "chandusekharreddy", "CHANGESET": "35565177" }, "geometry": { "type": "Point", "coordinates": [ 78.150714300000061, 14.110555 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3740882427v2", "TIMESTAMP": "2015-11-25T06:53:57Z", "UID": "439726", "USERNAME": "chandusekharreddy", "CHANGESET": "35565177" }, "geometry": { "type": "Point", "coordinates": [ 78.151865900000075, 14.110968 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3740882426v2", "TIMESTAMP": "2015-11-25T06:53:57Z", "UID": "439726", "USERNAME": "chandusekharreddy", "CHANGESET": "35565177" }, "geometry": { "type": "Point", "coordinates": [ 78.151525700000036, 14.110959600000058 ] } }
+]
+}

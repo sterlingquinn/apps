@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "2399942128v1", "TIMESTAMP": "2013-07-29T00:23:27Z", "UID": "891982", "USERNAME": "Juan Facundo", "CHANGESET": "17132810" }, "geometry": { "type": "Point", "coordinates": [ -60.281443499999966, -38.357085299999937 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1275061883v2", "TIMESTAMP": "2013-07-29T00:23:30Z", "UID": "891982", "USERNAME": "Juan Facundo", "CHANGESET": "17132810" }, "geometry": { "type": "Point", "coordinates": [ -60.282121899999936, -38.357504199999937 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1275061392v2", "TIMESTAMP": "2013-07-29T00:23:30Z", "UID": "891982", "USERNAME": "Juan Facundo", "CHANGESET": "17132810" }, "geometry": { "type": "Point", "coordinates": [ -60.2814267, -38.356993099999954 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1275062058v2", "TIMESTAMP": "2013-07-29T00:23:30Z", "UID": "891982", "USERNAME": "Juan Facundo", "CHANGESET": "17132810" }, "geometry": { "type": "Point", "coordinates": [ -60.281241199999954, -38.356507699999952 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1275061463v2", "TIMESTAMP": "2013-07-29T00:23:30Z", "UID": "891982", "USERNAME": "Juan Facundo", "CHANGESET": "17132810" }, "geometry": { "type": "Point", "coordinates": [ -60.2813161, -38.356650699999932 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1275061341v2", "TIMESTAMP": "2013-07-29T00:23:30Z", "UID": "891982", "USERNAME": "Juan Facundo", "CHANGESET": "17132810" }, "geometry": { "type": "Point", "coordinates": [ -60.281975399999965, -38.357496 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1275061595v2", "TIMESTAMP": "2013-07-29T00:23:30Z", "UID": "891982", "USERNAME": "Juan Facundo", "CHANGESET": "17132810" }, "geometry": { "type": "Point", "coordinates": [ -60.280958399999975, -38.356156299999952 ] } }
+]
+}

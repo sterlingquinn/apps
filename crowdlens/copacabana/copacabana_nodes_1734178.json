@@ -1,0 +1,21 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "2541704771v1", "TIMESTAMP": "2013-11-20T16:53:30Z", "UID": "1734178", "USERNAME": "marcusbraga", "CHANGESET": "19018048" }, "geometry": { "type": "Point", "coordinates": [ -43.177096699999936, -22.966562899999929 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2541704771v2", "TIMESTAMP": "2013-11-20T16:57:25Z", "UID": "1734178", "USERNAME": "marcusbraga", "CHANGESET": "19018148" }, "geometry": { "type": "Point", "coordinates": [ -43.177166399999976, -22.967476699999963 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2541704777v1", "TIMESTAMP": "2013-11-20T16:53:30Z", "UID": "1734178", "USERNAME": "marcusbraga", "CHANGESET": "19018048" }, "geometry": { "type": "Point", "coordinates": [ -43.177061799999933, -22.963330199999973 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2541704777v2", "TIMESTAMP": "2013-11-20T16:57:25Z", "UID": "1734178", "USERNAME": "marcusbraga", "CHANGESET": "19018148" }, "geometry": { "type": "Point", "coordinates": [ -43.177142299999957, -22.960986499999933 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2541683220v1", "TIMESTAMP": "2013-11-20T16:44:26Z", "UID": "1734178", "USERNAME": "marcusbraga", "CHANGESET": "19017846" }, "geometry": { "type": "Point", "coordinates": [ -43.172353, -22.965614699999946 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2541683228v1", "TIMESTAMP": "2013-11-20T16:44:26Z", "UID": "1734178", "USERNAME": "marcusbraga", "CHANGESET": "19017846" }, "geometry": { "type": "Point", "coordinates": [ -43.181679, -22.962867099999983 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2541683217v1", "TIMESTAMP": "2013-11-20T16:44:26Z", "UID": "1734178", "USERNAME": "marcusbraga", "CHANGESET": "19017846" }, "geometry": { "type": "Point", "coordinates": [ -43.177112499999964, -22.965331499999934 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2541683214v1", "TIMESTAMP": "2013-11-20T16:44:26Z", "UID": "1734178", "USERNAME": "marcusbraga", "CHANGESET": "19017846" }, "geometry": { "type": "Point", "coordinates": [ -43.177124399999968, -22.963111 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2541683230v1", "TIMESTAMP": "2013-11-20T16:44:26Z", "UID": "1734178", "USERNAME": "marcusbraga", "CHANGESET": "19017846" }, "geometry": { "type": "Point", "coordinates": [ -43.181669699999929, -22.970013399999971 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2541683224v1", "TIMESTAMP": "2013-11-20T16:44:26Z", "UID": "1734178", "USERNAME": "marcusbraga", "CHANGESET": "19017846" }, "geometry": { "type": "Point", "coordinates": [ -43.1722223, -22.962570399999947 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2541704769v1", "TIMESTAMP": "2013-11-20T16:53:30Z", "UID": "1734178", "USERNAME": "marcusbraga", "CHANGESET": "19018048" }, "geometry": { "type": "Point", "coordinates": [ -43.172960699999976, -22.966560499999957 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2541704769v2", "TIMESTAMP": "2013-11-20T16:57:25Z", "UID": "1734178", "USERNAME": "marcusbraga", "CHANGESET": "19018148" }, "geometry": { "type": "Point", "coordinates": [ -43.172142699999938, -22.967447 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2541704765v1", "TIMESTAMP": "2013-11-20T16:53:30Z", "UID": "1734178", "USERNAME": "marcusbraga", "CHANGESET": "19018048" }, "geometry": { "type": "Point", "coordinates": [ -43.172923199999957, -22.963352399999962 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2541704765v2", "TIMESTAMP": "2013-11-20T16:57:25Z", "UID": "1734178", "USERNAME": "marcusbraga", "CHANGESET": "19018148" }, "geometry": { "type": "Point", "coordinates": [ -43.172195299999942, -22.960936499999946 ] } }
+]
+}

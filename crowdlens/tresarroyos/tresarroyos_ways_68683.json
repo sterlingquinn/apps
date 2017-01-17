@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "23168305v12", "TIMESTAMP": "2008-09-21T23:59:14Z", "UID": "68683", "USERNAME": "JavierDebian", "CHANGESET": "678815", "SHAPE_Leng": 2.473996 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -60.34, -38.404152821490605 ], [ -60.282151499999941, -38.356930199999965 ] ] ] } },
+{ "type": "Feature", "properties": { "ID_V": "23168305v13", "TIMESTAMP": "2008-09-22T00:01:01Z", "UID": "68683", "USERNAME": "JavierDebian", "CHANGESET": "678815", "SHAPE_Leng": 2.473996 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -60.34, -38.404152821490605 ], [ -60.282151499999941, -38.356930199999965 ] ] ] } }
+]
+}

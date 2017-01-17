@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "3120426916v1", "TIMESTAMP": "2014-10-09T11:25:50Z", "UID": "2388003", "USERNAME": "Aula de Francês", "CHANGESET": "25958790" }, "geometry": { "type": "Point", "coordinates": [ -43.191561799999931, -22.978747699999928 ] } }
+]
+}

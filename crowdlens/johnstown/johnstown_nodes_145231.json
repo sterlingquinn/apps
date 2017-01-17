@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "760777667v3", "TIMESTAMP": "2014-11-29T23:21:43Z", "UID": "145231", "USERNAME": "woodpeck_repair", "CHANGESET": "27122173" }, "geometry": { "type": "Point", "coordinates": [ -78.862885099999971, 40.282370600000036 ] } }
+]
+}

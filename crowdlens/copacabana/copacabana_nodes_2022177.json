@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "2776438384v1", "TIMESTAMP": "2014-04-07T23:53:24Z", "UID": "2022177", "USERNAME": "Spacious Copacabana Beachfront Penthouse", "CHANGESET": "21562681" }, "geometry": { "type": "Point", "coordinates": [ -43.190187499999979, -22.983115699999928 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2776438384v2", "TIMESTAMP": "2014-04-07T23:58:23Z", "UID": "2022177", "USERNAME": "Spacious Copacabana Beachfront Penthouse", "CHANGESET": "21562751" }, "geometry": { "type": "Point", "coordinates": [ -43.190187499999979, -22.983115699999928 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2776438384v3", "TIMESTAMP": "2014-04-08T00:01:20Z", "UID": "2022177", "USERNAME": "Spacious Copacabana Beachfront Penthouse", "CHANGESET": "21562791" }, "geometry": { "type": "Point", "coordinates": [ -43.190172, -22.983115299999952 ] } }
+]
+}

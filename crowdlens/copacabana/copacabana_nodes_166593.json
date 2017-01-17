@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "921294740v1", "TIMESTAMP": "2010-09-22T13:56:47Z", "UID": "166593", "USERNAME": "Nick Burrett", "CHANGESET": "5845777" }, "geometry": { "type": "Point", "coordinates": [ -43.193798299999969, -22.987936499999932 ] } }
+]
+}

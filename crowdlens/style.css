@@ -1,0 +1,384 @@
+html, body {
+	height: 100%;
+	overflow: hidden;
+}
+
+div {
+    display: block;
+}
+
+p, li{
+	color: white;
+	font-family: arial;
+}
+
+h2{
+	color: white;
+	font-family: arial;
+	font-size: x-large;
+}
+
+h3{
+	color: white;
+	font-family: arial;
+	font-size: large;
+}
+
+a{
+	color: #92c4f2;
+	font-family: arial;
+	font-weight: bold;
+}
+
+td{
+	padding: 0;
+}
+
+#wrapper {
+    width:100%;
+    height:100%;
+}
+
+#rightPanel {
+    float:right;
+    width: 29%;
+    height: 100%;
+    background: black;
+	overflow-x: hidden;
+}
+
+#commentTable {
+	font-size: small;
+	width: 90%;
+	padding-left: 5%;
+	padding-top: 2%;
+}
+
+#topBar {
+	width: 100%;
+	height: 6%;
+	background: black;
+}
+
+#basicMap {
+    float:right;
+    width: 100%;
+    height: 41%;
+    background: black;
+}
+
+#attributionImages{
+	float:right;
+	background: black;
+	padding-top:5px;
+	padding-right:5px;
+}
+
+#filterPanel {
+	float:left;
+	width:18%;
+	height: 100%;
+	background: black;
+}
+
+#filters {
+	float: right;
+	width: 100%;
+
+}
+
+#langLegend{
+    width: 100%;
+	overflow: hidden;
+	float: right;
+	padding-top:5%;
+}
+
+#userCount{
+	display: inline-block;
+}
+
+#userSortDiv{
+	display: inline-block;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+#loading{
+	display: inline-block;
+	padding-left: 10px;
+	padding-top: 5px;
+	visibility: hidden;
+}   
+
+#loadingImage{
+	padding-left: 5px;
+}
+
+#multipleMaps {
+    float:right;
+    width: 100%;
+    height: 51%;
+    background: black;
+	overflow-y: auto;
+}
+
+#multiplesGrid {
+	float: right;
+	width: 100%;
+}
+
+#userTitleTable{
+	width: 100%;
+}
+
+#userInfoTable {
+	width: 100%;
+	padding-left: 5%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	border-color: black;
+	border-width: 3px;
+	
+}
+
+#topTagsText{
+    padding-left: 5%;
+	padding-right: 5%;
+	width: 90%;
+}
+
+#fullExtent, #helpLink, #aboutLink, #videoLink{
+	display: inline-block;
+	font-size: small;
+	padding-left: 15px;
+}
+
+#logo{
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+#userLangSelect{
+    width: 100%
+}
+
+#selTag{
+	width: 100%
+}
+
+.middlePanel{
+	float:right;
+	width:49%;
+	height:100%
+}
+
+.horizontalSeparator{
+	float:right;
+	width: 100%;
+	height: 8%;
+	background: black;
+}
+
+.verticalSeparatorRight{
+	height:100%;
+	width: 2%;
+	background: black;
+	float: right;
+}
+
+.verticalSeparatorLeft{
+	height:100%;
+	width: 2%;
+	background: black;
+	float: left;
+}
+
+.lowerSection{
+	height: 94%;
+	width: 100%;
+}
+
+.categoryHeader{ 
+	font-weight:bold;
+	font-size:75%;
+	font-family: arial;
+	color:#EBEBEB;
+}
+
+.helpbody{
+	background: black;
+	overflow-y: scroll;
+}
+
+.helpdiv{
+	background: black;	
+}
+
+
+
+.uiLabel{
+	font-family: arial;
+	font-size: small;
+	color: white;
+}
+
+.uiLabelBold{
+	font-family: arial;
+	font-size: small;
+	color: white;
+	font-weight: bold;
+	color: #92c4f2;
+}
+
+.filterSelect{
+	display: inline-block;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+.olControlAttribution {
+		left: 10px;
+		line-height: 9px;
+		font-size: 9px;
+		color: #8e8e8e;
+		font-family: arial;
+		bottom: 3px !important;
+     }
+
+.userTableTitle{
+	text-align: center;
+	font-weight: bold;
+	font-size: x-large;
+	width: 100%;
+}
+
+.userTablePages{
+	text-align: center;
+	width: 100%;
+	font-size: small;
+}
+
+.userTableLabel{
+    text-align: right;
+	width: 50%;
+	font-size: small;
+}
+
+.userTableValue{
+	text-align: left;
+	font-weight: bold;
+	width: 50%;
+	font-size: small;
+}
+
+.sparkbarLabel{
+	font-size: xx-small;
+	color: #92c4f2;
+}
+
+.smallMultImage {
+    padding-left: 2px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	
+}
+
+.deImg {
+    border:2px solid #FFCC99;
+}
+
+.enImg {
+    border:2px solid #6699FF;
+}
+
+.esImg {
+    border:2px solid #FF5050;
+}
+
+.frImg {
+    border:2px solid #CC99FF;	
+}
+
+.ptImg {
+	border:2px solid #99FF66;	
+}
+
+.noneImg {
+	border:0px solid #FFFFFF;
+}
+
+.otherImg {
+    border:2px solid #669999;
+}
+
+.userCountLabel{
+	font-size: large;
+	color: white;
+	font-weight: bold;
+	font-family: arial;
+}
+
+
+.smallMultTable{
+    padding-left: 1px;
+	padding-top: 1px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+	display: inline-block;
+	table-layout:fixed;
+}
+
+
+.smallMultTextCell{
+	text-align: center;
+	
+}
+
+.smallMultImageCell{
+	text-align: center;
+
+
+}
+
+.smallMultText{
+	color: white;
+	font-family: arial;
+	font-weight: bold; 
+	font-size: x-small;
+	
+}
+
+.tagCloudItem{
+	color: white;
+}
+
+.tagCloudItem:hover{
+	color: yellow;
+}
+
+.sliderLabel {
+    border:0;
+	color:#EBEBEB;
+	font-weight:bold;
+	font-size:small;
+	background-color:black;
+}
+
+
+.sliderLabelCell{
+
+	display:inline-block;
+
+}
+
+.sliderValueCell{
+
+	display:inline-block;
+}
+
+.sliderLabelTable{
+	width: 100%;
+}

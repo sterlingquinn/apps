@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "464006829v3", "TIMESTAMP": "2012-07-19T22:36:56Z", "UID": "722137", "USERNAME": "OSMF Redaction Account", "CHANGESET": "12350719" }, "geometry": { "type": "Point", "coordinates": [ -43.189831499999968, -22.976085699999942 ] } },
+{ "type": "Feature", "properties": { "ID_V": "97350039v39", "TIMESTAMP": "2012-07-19T22:34:58Z", "UID": "722137", "USERNAME": "OSMF Redaction Account", "CHANGESET": "12350686" }, "geometry": { "type": "Point", "coordinates": [ -43.160609299999976, -22.960624899999971 ] } },
+{ "type": "Feature", "properties": { "ID_V": "464006842v4", "TIMESTAMP": "2012-07-19T22:36:56Z", "UID": "722137", "USERNAME": "OSMF Redaction Account", "CHANGESET": "12350719" }, "geometry": { "type": "Point", "coordinates": [ -43.190784199999939, -22.978053299999942 ] } },
+{ "type": "Feature", "properties": { "ID_V": "471554401v4", "TIMESTAMP": "2012-07-19T22:36:56Z", "UID": "722137", "USERNAME": "OSMF Redaction Account", "CHANGESET": "12350719" }, "geometry": { "type": "Point", "coordinates": [ -43.190343799999937, -22.978128899999945 ] } },
+{ "type": "Feature", "properties": { "ID_V": "471554404v3", "TIMESTAMP": "2012-07-19T22:36:56Z", "UID": "722137", "USERNAME": "OSMF Redaction Account", "CHANGESET": "12350719" }, "geometry": { "type": "Point", "coordinates": [ -43.190724099999954, -22.9777846 ] } },
+{ "type": "Feature", "properties": { "ID_V": "471554409v4", "TIMESTAMP": "2012-07-19T22:36:57Z", "UID": "722137", "USERNAME": "OSMF Redaction Account", "CHANGESET": "12350719" }, "geometry": { "type": "Point", "coordinates": [ -43.190131899999983, -22.975738 ] } },
+{ "type": "Feature", "properties": { "ID_V": "471554399v4", "TIMESTAMP": "2012-07-19T22:36:56Z", "UID": "722137", "USERNAME": "OSMF Redaction Account", "CHANGESET": "12350719" }, "geometry": { "type": "Point", "coordinates": [ -43.190516, -22.978030599999954 ] } },
+{ "type": "Feature", "properties": { "ID_V": "464006836v3", "TIMESTAMP": "2012-07-19T22:36:57Z", "UID": "722137", "USERNAME": "OSMF Redaction Account", "CHANGESET": "12350719" }, "geometry": { "type": "Point", "coordinates": [ -43.1890676, -22.9757854 ] } },
+{ "type": "Feature", "properties": { "ID_V": "471590101v3", "TIMESTAMP": "2012-07-19T22:36:57Z", "UID": "722137", "USERNAME": "OSMF Redaction Account", "CHANGESET": "12350719" }, "geometry": { "type": "Point", "coordinates": [ -43.188235, -22.975911799999949 ] } },
+{ "type": "Feature", "properties": { "ID_V": "506849954v3", "TIMESTAMP": "2012-07-19T22:34:58Z", "UID": "722137", "USERNAME": "OSMF Redaction Account", "CHANGESET": "12350686" }, "geometry": { "type": "Point", "coordinates": [ -43.183262299999967, -22.968858399999931 ] } }
+]
+}

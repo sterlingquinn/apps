@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "3297674263v1", "TIMESTAMP": "2015-01-18T23:04:24Z", "UID": "475877", "USERNAME": "RoadGeek_MD99", "CHANGESET": "28242151" }, "geometry": { "type": "Point", "coordinates": [ -78.87124, 40.293586700000048 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2514200160v2", "TIMESTAMP": "2015-01-18T23:04:24Z", "UID": "475877", "USERNAME": "RoadGeek_MD99", "CHANGESET": "28242151" }, "geometry": { "type": "Point", "coordinates": [ -78.871060799999952, 40.293562 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3297674264v1", "TIMESTAMP": "2015-01-18T23:04:24Z", "UID": "475877", "USERNAME": "RoadGeek_MD99", "CHANGESET": "28242151" }, "geometry": { "type": "Point", "coordinates": [ -78.871159299999988, 40.293592500000045 ] } }
+]
+}

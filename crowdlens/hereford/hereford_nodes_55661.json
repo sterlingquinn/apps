@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "922633035v1", "TIMESTAMP": "2010-09-23T12:55:41Z", "UID": "55661", "USERNAME": "evolvedlight", "CHANGESET": "5853837" }, "geometry": { "type": "Point", "coordinates": [ -2.7427065, 52.074384100000032 ] } },
+{ "type": "Feature", "properties": { "ID_V": "243906687v3", "TIMESTAMP": "2010-09-23T12:56:03Z", "UID": "55661", "USERNAME": "evolvedlight", "CHANGESET": "5853837" }, "geometry": { "type": "Point", "coordinates": [ -2.711613399999976, 52.058988200000044 ] } },
+{ "type": "Feature", "properties": { "ID_V": "861626261v3", "TIMESTAMP": "2010-09-23T12:55:56Z", "UID": "55661", "USERNAME": "evolvedlight", "CHANGESET": "5853837" }, "geometry": { "type": "Point", "coordinates": [ -2.707464199999947, 52.049837600000046 ] } },
+{ "type": "Feature", "properties": { "ID_V": "861626259v3", "TIMESTAMP": "2010-09-23T12:56:03Z", "UID": "55661", "USERNAME": "evolvedlight", "CHANGESET": "5853837" }, "geometry": { "type": "Point", "coordinates": [ -2.708065599999941, 52.050891900000067 ] } },
+{ "type": "Feature", "properties": { "ID_V": "394942442v2", "TIMESTAMP": "2010-09-23T12:55:41Z", "UID": "55661", "USERNAME": "evolvedlight", "CHANGESET": "5853837" }, "geometry": { "type": "Point", "coordinates": [ -2.721049099999959, 52.050085900000056 ] } },
+{ "type": "Feature", "properties": { "ID_V": "922633022v1", "TIMESTAMP": "2010-09-23T12:55:41Z", "UID": "55661", "USERNAME": "evolvedlight", "CHANGESET": "5853837" }, "geometry": { "type": "Point", "coordinates": [ -2.716528799999935, 52.065127700000062 ] } },
+{ "type": "Feature", "properties": { "ID_V": "922633023v1", "TIMESTAMP": "2010-09-23T12:55:41Z", "UID": "55661", "USERNAME": "evolvedlight", "CHANGESET": "5853837" }, "geometry": { "type": "Point", "coordinates": [ -2.716491599999927, 52.064862100000028 ] } }
+]
+}

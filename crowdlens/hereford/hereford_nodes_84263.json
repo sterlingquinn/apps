@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "663698335v6", "TIMESTAMP": "2013-10-04T11:37:24Z", "UID": "84263", "USERNAME": "Robert Whittaker", "CHANGESET": "18176795" }, "geometry": { "type": "Point", "coordinates": [ -2.718710499999929, 52.053841300000045 ] } },
+{ "type": "Feature", "properties": { "ID_V": "562704077v2", "TIMESTAMP": "2010-05-16T22:29:30Z", "UID": "84263", "USERNAME": "Robert Whittaker", "CHANGESET": "4723446" }, "geometry": { "type": "Point", "coordinates": [ -2.713175699999965, 52.05597750000004 ] } },
+{ "type": "Feature", "properties": { "ID_V": "727284685v3", "TIMESTAMP": "2013-09-10T10:18:36Z", "UID": "84263", "USERNAME": "Robert Whittaker", "CHANGESET": "17764357" }, "geometry": { "type": "Point", "coordinates": [ -2.698194, 52.056303 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1381617402v3", "TIMESTAMP": "2012-04-17T17:03:49Z", "UID": "84263", "USERNAME": "Robert Whittaker", "CHANGESET": "11335187" }, "geometry": { "type": "Point", "coordinates": [ -2.7108399, 52.05187 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1381617411v4", "TIMESTAMP": "2013-10-04T11:37:22Z", "UID": "84263", "USERNAME": "Robert Whittaker", "CHANGESET": "18176795" }, "geometry": { "type": "Point", "coordinates": [ -2.714531799999975, 52.056389900000056 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1381617417v6", "TIMESTAMP": "2015-06-08T12:42:14Z", "UID": "84263", "USERNAME": "Robert Whittaker", "CHANGESET": "31813793" }, "geometry": { "type": "Point", "coordinates": [ -2.710744199999965, 52.058449600000074 ] } },
+{ "type": "Feature", "properties": { "ID_V": "302422796v5", "TIMESTAMP": "2010-05-16T22:29:03Z", "UID": "84263", "USERNAME": "Robert Whittaker", "CHANGESET": "4723446" }, "geometry": { "type": "Point", "coordinates": [ -2.714624199999946, 52.056350200000054 ] } }
+]
+}

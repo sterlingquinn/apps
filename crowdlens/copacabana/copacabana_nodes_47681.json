@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "2873717101v1", "TIMESTAMP": "2014-05-21T22:19:32Z", "UID": "47681", "USERNAME": "jot", "CHANGESET": "22476084" }, "geometry": { "type": "Point", "coordinates": [ -43.1867497, -22.96837 ] } }
+]
+}

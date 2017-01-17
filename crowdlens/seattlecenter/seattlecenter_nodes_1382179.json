@@ -1,0 +1,25 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "2327598477v1", "TIMESTAMP": "2013-05-31T21:12:52Z", "UID": "1382179", "USERNAME": "SeattleImport", "CHANGESET": "16371039" }, "geometry": { "type": "Point", "coordinates": [ -122.34814710000001, 47.618484800000033 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2327598479v1", "TIMESTAMP": "2013-05-31T21:12:52Z", "UID": "1382179", "USERNAME": "SeattleImport", "CHANGESET": "16371039" }, "geometry": { "type": "Point", "coordinates": [ -122.35024610000001, 47.618490800000075 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2327361482v1", "TIMESTAMP": "2013-05-31T16:53:40Z", "UID": "1382179", "USERNAME": "SeattleImport", "CHANGESET": "16367774" }, "geometry": { "type": "Point", "coordinates": [ -122.3546522, 47.618505900000059 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2327361483v1", "TIMESTAMP": "2013-05-31T16:53:40Z", "UID": "1382179", "USERNAME": "SeattleImport", "CHANGESET": "16367774" }, "geometry": { "type": "Point", "coordinates": [ -122.3548615, 47.618507400000055 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2327361480v1", "TIMESTAMP": "2013-05-31T16:53:40Z", "UID": "1382179", "USERNAME": "SeattleImport", "CHANGESET": "16367774" }, "geometry": { "type": "Point", "coordinates": [ -122.3546545, 47.618496600000071 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2327598489v1", "TIMESTAMP": "2013-05-31T21:12:52Z", "UID": "1382179", "USERNAME": "SeattleImport", "CHANGESET": "16371039" }, "geometry": { "type": "Point", "coordinates": [ -122.3479092, 47.618501600000059 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2327361479v1", "TIMESTAMP": "2013-05-31T16:53:40Z", "UID": "1382179", "USERNAME": "SeattleImport", "CHANGESET": "16367774" }, "geometry": { "type": "Point", "coordinates": [ -122.3542799, 47.618495 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2327361478v1", "TIMESTAMP": "2013-05-31T16:53:40Z", "UID": "1382179", "USERNAME": "SeattleImport", "CHANGESET": "16367774" }, "geometry": { "type": "Point", "coordinates": [ -122.3540047, 47.61848690000005 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2327361477v1", "TIMESTAMP": "2013-05-31T16:53:40Z", "UID": "1382179", "USERNAME": "SeattleImport", "CHANGESET": "16367774" }, "geometry": { "type": "Point", "coordinates": [ -122.3537923, 47.618484400000057 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2327361476v1", "TIMESTAMP": "2013-05-31T16:53:40Z", "UID": "1382179", "USERNAME": "SeattleImport", "CHANGESET": "16367774" }, "geometry": { "type": "Point", "coordinates": [ -122.3537554, 47.618483900000058 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2327361475v1", "TIMESTAMP": "2013-05-31T16:53:40Z", "UID": "1382179", "USERNAME": "SeattleImport", "CHANGESET": "16367774" }, "geometry": { "type": "Point", "coordinates": [ -122.353593, 47.618482 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2327361474v1", "TIMESTAMP": "2013-05-31T16:53:40Z", "UID": "1382179", "USERNAME": "SeattleImport", "CHANGESET": "16367774" }, "geometry": { "type": "Point", "coordinates": [ -122.3535562, 47.618481600000052 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2327598491v1", "TIMESTAMP": "2013-05-31T21:12:52Z", "UID": "1382179", "USERNAME": "SeattleImport", "CHANGESET": "16371039" }, "geometry": { "type": "Point", "coordinates": [ -122.3477757, 47.618501900000069 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2327590989v1", "TIMESTAMP": "2013-05-31T21:03:48Z", "UID": "1382179", "USERNAME": "SeattleImport", "CHANGESET": "16370939" }, "geometry": { "type": "Point", "coordinates": [ -122.3525652, 47.618485400000054 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2327590988v1", "TIMESTAMP": "2013-05-31T21:03:48Z", "UID": "1382179", "USERNAME": "SeattleImport", "CHANGESET": "16370939" }, "geometry": { "type": "Point", "coordinates": [ -122.3515234, 47.61848370000007 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2327361481v1", "TIMESTAMP": "2013-05-31T16:53:40Z", "UID": "1382179", "USERNAME": "SeattleImport", "CHANGESET": "16367774" }, "geometry": { "type": "Point", "coordinates": [ -122.3543016, 47.618505900000059 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2327598485v1", "TIMESTAMP": "2013-05-31T21:12:52Z", "UID": "1382179", "USERNAME": "SeattleImport", "CHANGESET": "16371039" }, "geometry": { "type": "Point", "coordinates": [ -122.34814710000001, 47.618498 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2327598487v1", "TIMESTAMP": "2013-05-31T21:12:52Z", "UID": "1382179", "USERNAME": "SeattleImport", "CHANGESET": "16371039" }, "geometry": { "type": "Point", "coordinates": [ -122.3479092, 47.618498500000044 ] } }
+]
+}

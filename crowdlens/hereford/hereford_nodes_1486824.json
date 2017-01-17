@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "2328447715v1", "TIMESTAMP": "2013-06-01T20:06:55Z", "UID": "1486824", "USERNAME": "Sarah Russell", "CHANGESET": "16382672" }, "geometry": { "type": "Point", "coordinates": [ -2.710192699999936, 52.048924500000055 ] } }
+]
+}

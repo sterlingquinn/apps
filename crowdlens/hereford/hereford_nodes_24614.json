@@ -1,0 +1,27 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "430018771v1", "TIMESTAMP": "2009-06-28T00:47:36Z", "UID": "24614", "USERNAME": "Alex McKee", "CHANGESET": "1655934" }, "geometry": { "type": "Point", "coordinates": [ -2.683881199999973, 52.039382600000067 ] } },
+{ "type": "Feature", "properties": { "ID_V": "430018764v1", "TIMESTAMP": "2009-06-28T00:47:35Z", "UID": "24614", "USERNAME": "Alex McKee", "CHANGESET": "1655934" }, "geometry": { "type": "Point", "coordinates": [ -2.670032799999945, 52.032715200000041 ] } },
+{ "type": "Feature", "properties": { "ID_V": "430018765v1", "TIMESTAMP": "2009-06-28T00:47:35Z", "UID": "24614", "USERNAME": "Alex McKee", "CHANGESET": "1655934" }, "geometry": { "type": "Point", "coordinates": [ -2.670419099999947, 52.034114500000044 ] } },
+{ "type": "Feature", "properties": { "ID_V": "430018766v1", "TIMESTAMP": "2009-06-28T00:47:35Z", "UID": "24614", "USERNAME": "Alex McKee", "CHANGESET": "1655934" }, "geometry": { "type": "Point", "coordinates": [ -2.671234399999946, 52.035302500000057 ] } },
+{ "type": "Feature", "properties": { "ID_V": "430018767v1", "TIMESTAMP": "2009-06-28T00:47:35Z", "UID": "24614", "USERNAME": "Alex McKee", "CHANGESET": "1655934" }, "geometry": { "type": "Point", "coordinates": [ -2.672092799999973, 52.036041700000055 ] } },
+{ "type": "Feature", "properties": { "ID_V": "35475139v5", "TIMESTAMP": "2010-01-03T04:40:40Z", "UID": "24614", "USERNAME": "Alex McKee", "CHANGESET": "3525332" }, "geometry": { "type": "Point", "coordinates": [ -2.744070299999976, 52.040508400000078 ] } },
+{ "type": "Feature", "properties": { "ID_V": "604123539v1", "TIMESTAMP": "2010-01-04T03:30:45Z", "UID": "24614", "USERNAME": "Alex McKee", "CHANGESET": "3534507" }, "geometry": { "type": "Point", "coordinates": [ -2.746989199999973, 52.069318900000042 ] } },
+{ "type": "Feature", "properties": { "ID_V": "95959178v4", "TIMESTAMP": "2010-01-03T04:40:41Z", "UID": "24614", "USERNAME": "Alex McKee", "CHANGESET": "3525332" }, "geometry": { "type": "Point", "coordinates": [ -2.7491329, 52.03900340000007 ] } },
+{ "type": "Feature", "properties": { "ID_V": "430018784v1", "TIMESTAMP": "2009-06-28T00:47:38Z", "UID": "24614", "USERNAME": "Alex McKee", "CHANGESET": "1655934" }, "geometry": { "type": "Point", "coordinates": [ -2.682395799999938, 52.038966500000072 ] } },
+{ "type": "Feature", "properties": { "ID_V": "430018770v1", "TIMESTAMP": "2009-06-28T00:47:35Z", "UID": "24614", "USERNAME": "Alex McKee", "CHANGESET": "1655934" }, "geometry": { "type": "Point", "coordinates": [ -2.682478299999957, 52.039051200000074 ] } },
+{ "type": "Feature", "properties": { "ID_V": "604123540v1", "TIMESTAMP": "2010-01-04T03:30:45Z", "UID": "24614", "USERNAME": "Alex McKee", "CHANGESET": "3534507" }, "geometry": { "type": "Point", "coordinates": [ -2.745701699999927, 52.069345300000066 ] } },
+{ "type": "Feature", "properties": { "ID_V": "604123541v1", "TIMESTAMP": "2010-01-04T03:30:45Z", "UID": "24614", "USERNAME": "Alex McKee", "CHANGESET": "3534507" }, "geometry": { "type": "Point", "coordinates": [ -2.743952899999954, 52.069332100000054 ] } },
+{ "type": "Feature", "properties": { "ID_V": "430018768v1", "TIMESTAMP": "2009-06-28T00:47:35Z", "UID": "24614", "USERNAME": "Alex McKee", "CHANGESET": "1655934" }, "geometry": { "type": "Point", "coordinates": [ -2.673337299999957, 52.036965700000053 ] } },
+{ "type": "Feature", "properties": { "ID_V": "430018769v1", "TIMESTAMP": "2009-06-28T00:47:35Z", "UID": "24614", "USERNAME": "Alex McKee", "CHANGESET": "1655934" }, "geometry": { "type": "Point", "coordinates": [ -2.674753499999952, 52.037493700000027 ] } },
+{ "type": "Feature", "properties": { "ID_V": "35475140v5", "TIMESTAMP": "2010-01-03T04:40:40Z", "UID": "24614", "USERNAME": "Alex McKee", "CHANGESET": "3525332" }, "geometry": { "type": "Point", "coordinates": [ -2.745727799999941, 52.040058900000076 ] } },
+{ "type": "Feature", "properties": { "ID_V": "430018690v1", "TIMESTAMP": "2009-06-28T00:47:27Z", "UID": "24614", "USERNAME": "Alex McKee", "CHANGESET": "1655934" }, "geometry": { "type": "Point", "coordinates": [ -2.677800499999933, 52.032636 ] } },
+{ "type": "Feature", "properties": { "ID_V": "395811116v2", "TIMESTAMP": "2010-01-03T04:40:40Z", "UID": "24614", "USERNAME": "Alex McKee", "CHANGESET": "3525332" }, "geometry": { "type": "Point", "coordinates": [ -2.744667799999945, 52.04034130000008 ] } },
+{ "type": "Feature", "properties": { "ID_V": "604123538v1", "TIMESTAMP": "2010-01-04T03:30:45Z", "UID": "24614", "USERNAME": "Alex McKee", "CHANGESET": "3534507" }, "geometry": { "type": "Point", "coordinates": [ -2.748748699999965, 52.069424500000082 ] } },
+{ "type": "Feature", "properties": { "ID_V": "35475138v5", "TIMESTAMP": "2010-01-03T04:40:40Z", "UID": "24614", "USERNAME": "Alex McKee", "CHANGESET": "3525332" }, "geometry": { "type": "Point", "coordinates": [ -2.742275399999926, 52.041009400000064 ] } },
+{ "type": "Feature", "properties": { "ID_V": "35475142v5", "TIMESTAMP": "2010-01-03T04:40:41Z", "UID": "24614", "USERNAME": "Alex McKee", "CHANGESET": "3525332" }, "geometry": { "type": "Point", "coordinates": [ -2.747091299999966, 52.039681900000062 ] } }
+]
+}

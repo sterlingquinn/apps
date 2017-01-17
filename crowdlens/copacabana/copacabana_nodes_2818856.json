@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "3839020514v1", "TIMESTAMP": "2015-11-16T14:27:32Z", "UID": "2818856", "USERNAME": "CitymapperHQ", "CHANGESET": "35352179" }, "geometry": { "type": "Point", "coordinates": [ -43.197917699999948, -22.957715699999937 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2671695546v3", "TIMESTAMP": "2015-11-16T14:27:32Z", "UID": "2818856", "USERNAME": "CitymapperHQ", "CHANGESET": "35352179" }, "geometry": { "type": "Point", "coordinates": [ -43.197903699999983, -22.957702299999937 ] } },
+{ "type": "Feature", "properties": { "ID_V": "148387041v5", "TIMESTAMP": "2015-11-16T14:27:32Z", "UID": "2818856", "USERNAME": "CitymapperHQ", "CHANGESET": "35352179" }, "geometry": { "type": "Point", "coordinates": [ -43.197914, -22.957735399999933 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3839020513v1", "TIMESTAMP": "2015-11-16T14:27:32Z", "UID": "2818856", "USERNAME": "CitymapperHQ", "CHANGESET": "35352179" }, "geometry": { "type": "Point", "coordinates": [ -43.196904099999983, -22.95743 ] } },
+{ "type": "Feature", "properties": { "ID_V": "3839020515v1", "TIMESTAMP": "2015-11-16T14:27:32Z", "UID": "2818856", "USERNAME": "CitymapperHQ", "CHANGESET": "35352179" }, "geometry": { "type": "Point", "coordinates": [ -43.197851699999944, -22.957744099999957 ] } }
+]
+}

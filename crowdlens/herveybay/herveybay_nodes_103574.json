@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "2053696485v1", "TIMESTAMP": "2012-12-07T01:47:53Z", "UID": "103574", "USERNAME": "Unusual User Name", "CHANGESET": "14182731" }, "geometry": { "type": "Point", "coordinates": [ 152.88259330000005, -25.2984938 ] } },
+{ "type": "Feature", "properties": { "ID_V": "502788480v1", "TIMESTAMP": "2009-09-20T02:24:53Z", "UID": "103574", "USERNAME": "Unusual User Name", "CHANGESET": "2540419" }, "geometry": { "type": "Point", "coordinates": [ 152.874215, -25.286554 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2053695740v1", "TIMESTAMP": "2012-12-07T01:44:41Z", "UID": "103574", "USERNAME": "Unusual User Name", "CHANGESET": "14182718" }, "geometry": { "type": "Point", "coordinates": [ 152.87858560000006, -25.286591299999941 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2053696301v1", "TIMESTAMP": "2012-12-07T01:47:09Z", "UID": "103574", "USERNAME": "Unusual User Name", "CHANGESET": "14182729" }, "geometry": { "type": "Point", "coordinates": [ 152.88358940000012, -25.2884847 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2053696487v1", "TIMESTAMP": "2012-12-07T01:47:53Z", "UID": "103574", "USERNAME": "Unusual User Name", "CHANGESET": "14182731" }, "geometry": { "type": "Point", "coordinates": [ 152.88251820000005, -25.298605399999929 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2053696486v1", "TIMESTAMP": "2012-12-07T01:47:53Z", "UID": "103574", "USERNAME": "Unusual User Name", "CHANGESET": "14182731" }, "geometry": { "type": "Point", "coordinates": [ 152.88283760000002, -25.298386499999935 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2053696489v1", "TIMESTAMP": "2012-12-07T01:47:53Z", "UID": "103574", "USERNAME": "Unusual User Name", "CHANGESET": "14182731" }, "geometry": { "type": "Point", "coordinates": [ 152.88038340000003, -25.300860299999954 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2053696488v1", "TIMESTAMP": "2012-12-07T01:47:53Z", "UID": "103574", "USERNAME": "Unusual User Name", "CHANGESET": "14182731" }, "geometry": { "type": "Point", "coordinates": [ 152.88053570000011, -25.300783899999942 ] } }
+]
+}

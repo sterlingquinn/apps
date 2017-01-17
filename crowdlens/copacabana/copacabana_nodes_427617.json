@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "1513980194v1", "TIMESTAMP": "2011-11-23T09:59:48Z", "UID": "427617", "USERNAME": "Raul Lisboa", "CHANGESET": "9918935" }, "geometry": { "type": "Point", "coordinates": [ -43.197002, -22.984914 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1513985526v1", "TIMESTAMP": "2011-11-23T10:09:17Z", "UID": "427617", "USERNAME": "Raul Lisboa", "CHANGESET": "9919085" }, "geometry": { "type": "Point", "coordinates": [ -43.191455099999985, -22.990578 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1513985520v1", "TIMESTAMP": "2011-11-23T10:09:17Z", "UID": "427617", "USERNAME": "Raul Lisboa", "CHANGESET": "9919085" }, "geometry": { "type": "Point", "coordinates": [ -43.196996499999955, -22.985832199999948 ] } },
+{ "type": "Feature", "properties": { "ID_V": "557558018v2", "TIMESTAMP": "2011-11-23T10:09:17Z", "UID": "427617", "USERNAME": "Raul Lisboa", "CHANGESET": "9919085" }, "geometry": { "type": "Point", "coordinates": [ -43.197072899999966, -22.986820899999941 ] } }
+]
+}

@@ -1,0 +1,23 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "273556346v1", "TIMESTAMP": "2008-06-27T02:06:50Z", "UID": "36038", "USERNAME": "DialH", "CHANGESET": "316650" }, "geometry": { "type": "Point", "coordinates": [ -122.35481590000001, 47.621551900000043 ] } },
+{ "type": "Feature", "properties": { "ID_V": "273556347v1", "TIMESTAMP": "2008-06-27T02:06:50Z", "UID": "36038", "USERNAME": "DialH", "CHANGESET": "316650" }, "geometry": { "type": "Point", "coordinates": [ -122.3540434, 47.621528800000078 ] } },
+{ "type": "Feature", "properties": { "ID_V": "273556345v1", "TIMESTAMP": "2008-06-27T02:06:50Z", "UID": "36038", "USERNAME": "DialH", "CHANGESET": "316650" }, "geometry": { "type": "Point", "coordinates": [ -122.35481590000001, 47.622072600000081 ] } },
+{ "type": "Feature", "properties": { "ID_V": "273556348v1", "TIMESTAMP": "2008-06-27T02:06:50Z", "UID": "36038", "USERNAME": "DialH", "CHANGESET": "316650" }, "geometry": { "type": "Point", "coordinates": [ -122.35402620000001, 47.621395700000051 ] } },
+{ "type": "Feature", "properties": { "ID_V": "273556355v1", "TIMESTAMP": "2008-06-27T02:06:50Z", "UID": "36038", "USERNAME": "DialH", "CHANGESET": "316650" }, "geometry": { "type": "Point", "coordinates": [ -122.3539061, 47.622645300000045 ] } },
+{ "type": "Feature", "properties": { "ID_V": "273556354v1", "TIMESTAMP": "2008-06-27T02:06:50Z", "UID": "36038", "USERNAME": "DialH", "CHANGESET": "316650" }, "geometry": { "type": "Point", "coordinates": [ -122.3531422, 47.622633700000051 ] } },
+{ "type": "Feature", "properties": { "ID_V": "273556356v1", "TIMESTAMP": "2008-06-27T02:06:50Z", "UID": "36038", "USERNAME": "DialH", "CHANGESET": "316650" }, "geometry": { "type": "Point", "coordinates": [ -122.353949, 47.622801500000037 ] } },
+{ "type": "Feature", "properties": { "ID_V": "273556351v1", "TIMESTAMP": "2008-06-27T02:06:50Z", "UID": "36038", "USERNAME": "DialH", "CHANGESET": "316650" }, "geometry": { "type": "Point", "coordinates": [ -122.3531422, 47.622037900000066 ] } },
+{ "type": "Feature", "properties": { "ID_V": "273556350v1", "TIMESTAMP": "2008-06-27T02:06:50Z", "UID": "36038", "USERNAME": "DialH", "CHANGESET": "316650" }, "geometry": { "type": "Point", "coordinates": [ -122.3531765, 47.621528800000078 ] } },
+{ "type": "Feature", "properties": { "ID_V": "273556342v1", "TIMESTAMP": "2008-06-27T02:06:50Z", "UID": "36038", "USERNAME": "DialH", "CHANGESET": "316650" }, "geometry": { "type": "Point", "coordinates": [ -122.3547644, 47.622656900000038 ] } },
+{ "type": "Feature", "properties": { "ID_V": "273556349v1", "TIMESTAMP": "2008-06-27T02:06:50Z", "UID": "36038", "USERNAME": "DialH", "CHANGESET": "316650" }, "geometry": { "type": "Point", "coordinates": [ -122.353949, 47.621517200000028 ] } },
+{ "type": "Feature", "properties": { "ID_V": "273556353v1", "TIMESTAMP": "2008-06-27T02:06:50Z", "UID": "36038", "USERNAME": "DialH", "CHANGESET": "316650" }, "geometry": { "type": "Point", "coordinates": [ -122.353125, 47.622101500000042 ] } },
+{ "type": "Feature", "properties": { "ID_V": "273556352v1", "TIMESTAMP": "2008-06-27T02:06:50Z", "UID": "36038", "USERNAME": "DialH", "CHANGESET": "316650" }, "geometry": { "type": "Point", "coordinates": [ -122.3529619, 47.622055200000034 ] } },
+{ "type": "Feature", "properties": { "ID_V": "273556358v1", "TIMESTAMP": "2008-06-27T02:06:50Z", "UID": "36038", "USERNAME": "DialH", "CHANGESET": "316650" }, "geometry": { "type": "Point", "coordinates": [ -122.35401760000001, 47.622651100000041 ] } },
+{ "type": "Feature", "properties": { "ID_V": "273556344v1", "TIMESTAMP": "2008-06-27T02:06:50Z", "UID": "36038", "USERNAME": "DialH", "CHANGESET": "316650" }, "geometry": { "type": "Point", "coordinates": [ -122.3549961, 47.622113100000036 ] } },
+{ "type": "Feature", "properties": { "ID_V": "273556343v1", "TIMESTAMP": "2008-06-27T02:06:50Z", "UID": "36038", "USERNAME": "DialH", "CHANGESET": "316650" }, "geometry": { "type": "Point", "coordinates": [ -122.3548073, 47.622136200000057 ] } }
+]
+}

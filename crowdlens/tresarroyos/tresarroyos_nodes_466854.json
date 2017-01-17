@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "1275924188v2", "TIMESTAMP": "2012-11-22T22:06:53Z", "UID": "466854", "USERNAME": "alpertron", "CHANGESET": "13991378" }, "geometry": { "type": "Point", "coordinates": [ -60.244300299999963, -38.385878299999945 ] } },
+{ "type": "Feature", "properties": { "ID_V": "599322043v3", "TIMESTAMP": "2012-11-22T22:06:54Z", "UID": "466854", "USERNAME": "alpertron", "CHANGESET": "13991378" }, "geometry": { "type": "Point", "coordinates": [ -60.2471921, -38.383681599999932 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1275924237v2", "TIMESTAMP": "2012-11-22T22:06:53Z", "UID": "466854", "USERNAME": "alpertron", "CHANGESET": "13991378" }, "geometry": { "type": "Point", "coordinates": [ -60.232247899999948, -38.395033099999978 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1275924384v2", "TIMESTAMP": "2012-11-22T22:06:54Z", "UID": "466854", "USERNAME": "alpertron", "CHANGESET": "13991378" }, "geometry": { "type": "Point", "coordinates": [ -60.238252299999942, -38.390472399999965 ] } }
+]
+}

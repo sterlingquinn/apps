@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "663793222v2", "TIMESTAMP": "2011-07-01T11:15:13Z", "UID": "476441", "USERNAME": "Bruce Boogie", "CHANGESET": "8598388" }, "geometry": { "type": "Point", "coordinates": [ -2.711190399999964, 52.054447500000038 ] } }
+]
+}

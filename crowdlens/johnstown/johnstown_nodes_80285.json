@@ -1,0 +1,19 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "2562412427v1", "TIMESTAMP": "2013-12-03T03:52:06Z", "UID": "80285", "USERNAME": "Sparks", "CHANGESET": "19245241" }, "geometry": { "type": "Point", "coordinates": [ -78.864967599999943, 40.285661 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2562412426v1", "TIMESTAMP": "2013-12-03T03:52:06Z", "UID": "80285", "USERNAME": "Sparks", "CHANGESET": "19245241" }, "geometry": { "type": "Point", "coordinates": [ -78.865128799999979, 40.285318500000074 ] } },
+{ "type": "Feature", "properties": { "ID_V": "108962025v4", "TIMESTAMP": "2013-12-03T03:52:07Z", "UID": "80285", "USERNAME": "Sparks", "CHANGESET": "19245241" }, "geometry": { "type": "Point", "coordinates": [ -78.865573499999982, 40.287013500000057 ] } },
+{ "type": "Feature", "properties": { "ID_V": "455033789v2", "TIMESTAMP": "2013-12-03T03:52:07Z", "UID": "80285", "USERNAME": "Sparks", "CHANGESET": "19245241" }, "geometry": { "type": "Point", "coordinates": [ -78.863956499999972, 40.286423700000057 ] } },
+{ "type": "Feature", "properties": { "ID_V": "108944175v4", "TIMESTAMP": "2013-12-03T03:52:07Z", "UID": "80285", "USERNAME": "Sparks", "CHANGESET": "19245241" }, "geometry": { "type": "Point", "coordinates": [ -78.864225899999951, 40.287272200000075 ] } },
+{ "type": "Feature", "properties": { "ID_V": "108794066v3", "TIMESTAMP": "2013-12-03T03:52:07Z", "UID": "80285", "USERNAME": "Sparks", "CHANGESET": "19245241" }, "geometry": { "type": "Point", "coordinates": [ -78.864425299999937, 40.288187200000039 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2562412428v1", "TIMESTAMP": "2013-12-03T03:52:06Z", "UID": "80285", "USERNAME": "Sparks", "CHANGESET": "19245241" }, "geometry": { "type": "Point", "coordinates": [ -78.865959499999974, 40.287528200000054 ] } },
+{ "type": "Feature", "properties": { "ID_V": "108794073v4", "TIMESTAMP": "2013-12-03T03:52:07Z", "UID": "80285", "USERNAME": "Sparks", "CHANGESET": "19245241" }, "geometry": { "type": "Point", "coordinates": [ -78.864106499999934, 40.287303200000053 ] } },
+{ "type": "Feature", "properties": { "ID_V": "108780619v3", "TIMESTAMP": "2013-12-03T03:52:07Z", "UID": "80285", "USERNAME": "Sparks", "CHANGESET": "19245241" }, "geometry": { "type": "Point", "coordinates": [ -78.863105599999983, 40.287528800000075 ] } },
+{ "type": "Feature", "properties": { "ID_V": "108961984v5", "TIMESTAMP": "2013-12-03T03:52:07Z", "UID": "80285", "USERNAME": "Sparks", "CHANGESET": "19245241" }, "geometry": { "type": "Point", "coordinates": [ -78.861743699999977, 40.287809300000049 ] } },
+{ "type": "Feature", "properties": { "ID_V": "108944187v3", "TIMESTAMP": "2013-12-03T03:52:07Z", "UID": "80285", "USERNAME": "Sparks", "CHANGESET": "19245241" }, "geometry": { "type": "Point", "coordinates": [ -78.863944899999979, 40.286441100000047 ] } },
+{ "type": "Feature", "properties": { "ID_V": "108780614v3", "TIMESTAMP": "2013-12-03T03:52:07Z", "UID": "80285", "USERNAME": "Sparks", "CHANGESET": "19245241" }, "geometry": { "type": "Point", "coordinates": [ -78.8632718, 40.288036200000079 ] } }
+]
+}

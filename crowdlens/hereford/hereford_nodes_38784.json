@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "1381655692v3", "TIMESTAMP": "2015-05-26T15:58:28Z", "UID": "38784", "USERNAME": "Tom Morris", "CHANGESET": "31477486" }, "geometry": { "type": "Point", "coordinates": [ -2.698862, 52.05505160000007 ] } }
+]
+}

@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "772169172v1", "TIMESTAMP": "2010-06-13T21:38:55Z", "UID": "300434", "USERNAME": "soaringflute", "CHANGESET": "4983401" }, "geometry": { "type": "Point", "coordinates": [ -2.718211699999927, 52.054633700000068 ] } },
+{ "type": "Feature", "properties": { "ID_V": "772169172v2", "TIMESTAMP": "2010-06-13T21:39:33Z", "UID": "300434", "USERNAME": "soaringflute", "CHANGESET": "4983401" }, "geometry": { "type": "Point", "coordinates": [ -2.718211699999927, 52.054633700000068 ] } },
+{ "type": "Feature", "properties": { "ID_V": "772155308v1", "TIMESTAMP": "2010-06-13T21:30:23Z", "UID": "300434", "USERNAME": "soaringflute", "CHANGESET": "4983331" }, "geometry": { "type": "Point", "coordinates": [ -2.743912399999942, 52.073630100000059 ] } },
+{ "type": "Feature", "properties": { "ID_V": "772155308v2", "TIMESTAMP": "2010-06-13T21:42:31Z", "UID": "300434", "USERNAME": "soaringflute", "CHANGESET": "4983431" }, "geometry": { "type": "Point", "coordinates": [ -2.743912499999965, 52.073630100000059 ] } },
+{ "type": "Feature", "properties": { "ID_V": "772135705v1", "TIMESTAMP": "2010-06-13T21:19:25Z", "UID": "300434", "USERNAME": "soaringflute", "CHANGESET": "4983238" }, "geometry": { "type": "Point", "coordinates": [ -2.744215399999973, 52.074419500000033 ] } },
+{ "type": "Feature", "properties": { "ID_V": "772164266v1", "TIMESTAMP": "2010-06-13T21:35:44Z", "UID": "300434", "USERNAME": "soaringflute", "CHANGESET": "4983374" }, "geometry": { "type": "Point", "coordinates": [ -2.716924199999937, 52.054742500000032 ] } },
+{ "type": "Feature", "properties": { "ID_V": "772138728v1", "TIMESTAMP": "2010-06-13T21:20:59Z", "UID": "300434", "USERNAME": "soaringflute", "CHANGESET": "4983253" }, "geometry": { "type": "Point", "coordinates": [ -2.735949399999925, 52.069316400000048 ] } },
+{ "type": "Feature", "properties": { "ID_V": "772164270v1", "TIMESTAMP": "2010-06-13T21:35:44Z", "UID": "300434", "USERNAME": "soaringflute", "CHANGESET": "4983374" }, "geometry": { "type": "Point", "coordinates": [ -2.718388699999935, 52.055131800000026 ] } }
+]
+}

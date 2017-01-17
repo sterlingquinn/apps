@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "21280555v16", "TIMESTAMP": "2015-04-24T11:23:10Z", "UID": "29320", "USERNAME": "Komяpa", "CHANGESET": "30451655" }, "geometry": { "type": "Point", "coordinates": [ -2.715173499999935, 52.055381300000079 ] } }
+]
+}

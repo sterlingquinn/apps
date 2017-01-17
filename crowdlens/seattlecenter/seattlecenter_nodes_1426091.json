@@ -1,0 +1,23 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "2324752656v1", "TIMESTAMP": "2013-05-29T20:25:19Z", "UID": "1426091", "USERNAME": "joelotz", "CHANGESET": "16343441" }, "geometry": { "type": "Point", "coordinates": [ -122.3493277, 47.618767200000036 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2324752657v1", "TIMESTAMP": "2013-05-29T20:25:19Z", "UID": "1426091", "USERNAME": "joelotz", "CHANGESET": "16343441" }, "geometry": { "type": "Point", "coordinates": [ -122.3493983, 47.618734800000027 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2324752654v1", "TIMESTAMP": "2013-05-29T20:25:19Z", "UID": "1426091", "USERNAME": "joelotz", "CHANGESET": "16343441" }, "geometry": { "type": "Point", "coordinates": [ -122.3492606, 47.618836900000076 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2324752655v1", "TIMESTAMP": "2013-05-29T20:25:19Z", "UID": "1426091", "USERNAME": "joelotz", "CHANGESET": "16343441" }, "geometry": { "type": "Point", "coordinates": [ -122.3492589, 47.618773 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2324752658v1", "TIMESTAMP": "2013-05-29T20:25:19Z", "UID": "1426091", "USERNAME": "joelotz", "CHANGESET": "16343441" }, "geometry": { "type": "Point", "coordinates": [ -122.34939660000001, 47.618689500000073 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2324752659v1", "TIMESTAMP": "2013-05-29T20:25:19Z", "UID": "1426091", "USERNAME": "joelotz", "CHANGESET": "16343441" }, "geometry": { "type": "Point", "coordinates": [ -122.349536, 47.618838 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2324752687v1", "TIMESTAMP": "2013-05-29T20:25:19Z", "UID": "1426091", "USERNAME": "joelotz", "CHANGESET": "16343441" }, "geometry": { "type": "Point", "coordinates": [ -122.3477636, 47.61849570000004 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2324752686v1", "TIMESTAMP": "2013-05-29T20:25:19Z", "UID": "1426091", "USERNAME": "joelotz", "CHANGESET": "16343441" }, "geometry": { "type": "Point", "coordinates": [ -122.3481509, 47.618496900000025 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2324752668v1", "TIMESTAMP": "2013-05-29T20:25:19Z", "UID": "1426091", "USERNAME": "joelotz", "CHANGESET": "16343441" }, "geometry": { "type": "Point", "coordinates": [ -122.35025570000001, 47.618496400000026 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2324752666v1", "TIMESTAMP": "2013-05-29T20:25:19Z", "UID": "1426091", "USERNAME": "joelotz", "CHANGESET": "16343441" }, "geometry": { "type": "Point", "coordinates": [ -122.34978390000001, 47.618880900000079 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2324752665v1", "TIMESTAMP": "2013-05-29T20:25:19Z", "UID": "1426091", "USERNAME": "joelotz", "CHANGESET": "16343441" }, "geometry": { "type": "Point", "coordinates": [ -122.3496066, 47.618876300000068 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2324752664v1", "TIMESTAMP": "2013-05-29T20:25:19Z", "UID": "1426091", "USERNAME": "joelotz", "CHANGESET": "16343441" }, "geometry": { "type": "Point", "coordinates": [ -122.3496152, 47.61873010000005 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2324752663v1", "TIMESTAMP": "2013-05-29T20:25:19Z", "UID": "1426091", "USERNAME": "joelotz", "CHANGESET": "16343441" }, "geometry": { "type": "Point", "coordinates": [ -122.3496651, 47.618732400000056 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2324752662v1", "TIMESTAMP": "2013-05-29T20:25:19Z", "UID": "1426091", "USERNAME": "joelotz", "CHANGESET": "16343441" }, "geometry": { "type": "Point", "coordinates": [ -122.3497185, 47.618668600000035 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2324752661v1", "TIMESTAMP": "2013-05-29T20:25:19Z", "UID": "1426091", "USERNAME": "joelotz", "CHANGESET": "16343441" }, "geometry": { "type": "Point", "coordinates": [ -122.34988370000001, 47.618670900000041 ] } },
+{ "type": "Feature", "properties": { "ID_V": "2324752660v1", "TIMESTAMP": "2013-05-29T20:25:19Z", "UID": "1426091", "USERNAME": "joelotz", "CHANGESET": "16343441" }, "geometry": { "type": "Point", "coordinates": [ -122.3499009, 47.618782300000078 ] } }
+]
+}

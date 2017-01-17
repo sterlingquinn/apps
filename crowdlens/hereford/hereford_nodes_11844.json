@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "999178563v1", "TIMESTAMP": "2010-11-22T10:12:14Z", "UID": "11844", "USERNAME": "Jon Porter", "CHANGESET": "6429866" }, "geometry": { "type": "Point", "coordinates": [ -2.719401599999969, 52.055930300000057 ] } },
+{ "type": "Feature", "properties": { "ID_V": "999160263v1", "TIMESTAMP": "2010-11-22T09:35:36Z", "UID": "11844", "USERNAME": "Jon Porter", "CHANGESET": "6429866" }, "geometry": { "type": "Point", "coordinates": [ -2.716220799999974, 52.055957 ] } }
+]
+}

@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "153805508v4", "TIMESTAMP": "2009-08-20T17:42:36Z", "UID": "151939", "USERNAME": "girlsdancing", "CHANGESET": "2214349" }, "geometry": { "type": "Point", "coordinates": [ -43.191727199999946, -22.977711399999976 ] } },
+{ "type": "Feature", "properties": { "ID_V": "151478849v6", "TIMESTAMP": "2009-08-20T17:42:37Z", "UID": "151939", "USERNAME": "girlsdancing", "CHANGESET": "2214349" }, "geometry": { "type": "Point", "coordinates": [ -43.189713199999971, -22.978193499999975 ] } },
+{ "type": "Feature", "properties": { "ID_V": "151478848v5", "TIMESTAMP": "2009-08-20T17:42:37Z", "UID": "151939", "USERNAME": "girlsdancing", "CHANGESET": "2214349" }, "geometry": { "type": "Point", "coordinates": [ -43.191687299999955, -22.977711399999976 ] } },
+{ "type": "Feature", "properties": { "ID_V": "151478846v6", "TIMESTAMP": "2009-08-20T17:42:36Z", "UID": "151939", "USERNAME": "girlsdancing", "CHANGESET": "2214349" }, "geometry": { "type": "Point", "coordinates": [ -43.193918899999971, -22.976905399999964 ] } },
+{ "type": "Feature", "properties": { "ID_V": "148201835v26", "TIMESTAMP": "2009-08-20T17:42:37Z", "UID": "151939", "USERNAME": "girlsdancing", "CHANGESET": "2214349" }, "geometry": { "type": "Point", "coordinates": [ -43.1890952, -22.9783436 ] } },
+{ "type": "Feature", "properties": { "ID_V": "148824697v10", "TIMESTAMP": "2009-08-20T17:42:36Z", "UID": "151939", "USERNAME": "girlsdancing", "CHANGESET": "2214349" }, "geometry": { "type": "Point", "coordinates": [ -43.192725799999948, -22.977458599999977 ] } },
+{ "type": "Feature", "properties": { "ID_V": "142149151v7", "TIMESTAMP": "2009-08-20T17:42:36Z", "UID": "151939", "USERNAME": "girlsdancing", "CHANGESET": "2214349" }, "geometry": { "type": "Point", "coordinates": [ -43.194672, -22.976608 ] } },
+{ "type": "Feature", "properties": { "ID_V": "378689620v3", "TIMESTAMP": "2009-08-20T17:42:38Z", "UID": "151939", "USERNAME": "girlsdancing", "CHANGESET": "2214349" }, "geometry": { "type": "Point", "coordinates": [ -43.1888244, -22.9784143 ] } },
+{ "type": "Feature", "properties": { "ID_V": "148823583v15", "TIMESTAMP": "2009-08-20T17:42:37Z", "UID": "151939", "USERNAME": "girlsdancing", "CHANGESET": "2214349" }, "geometry": { "type": "Point", "coordinates": [ -43.190597199999957, -22.9779643 ] } }
+]
+}

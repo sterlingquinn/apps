@@ -1,0 +1,964 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Crowd Lens for OpenStreetMap</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+	<link rel="stylesheet" href="../jquery-ui-themes-1.11.2/themes/smoothness/jquery-ui.css">
+	<script src="../openlayers2/OpenLayers.debug.js"></script>
+	<script src="../jquery-1.11.2/jquery-1.11.2.min.js"></script>
+	<script src="../jquery-ui-1.11.2/jquery-ui.min.js"></script>
+	<script src="../jquery-sparklines/jquery.sparkline.min.js"></script>
+	<script src="../DataTables-1.10.7/media/js/jquery.dataTables.min.js"></script>
+	
+	<script src="johnstown/johnstown_users.js"></script>
+	<script src="johnstown/johnstown_changesets.js"></script>
+	<script src="hereford/hereford_users.js"></script>
+	<script src="hereford/hereford_changesets.js"></script>
+	<script src="herveybay/herveybay_users.js"></script>
+	<script src="herveybay/herveybay_changesets.js"></script>
+	<script src="kadiri/kadiri_users.js"></script>
+	<script src="kadiri/kadiri_changesets.js"></script>
+	<script src="tresarroyos/tresarroyos_users.js"></script>
+	<script src="tresarroyos/tresarroyos_changesets.js"></script>
+	<script src="suhum/suhum_users.js"></script>
+	<script src="suhum/suhum_changesets.js"></script>
+	<script src="copacabana/copacabana_users.js"></script>
+	<script src="copacabana/copacabana_changesets.js"></script>
+	<script src="seattlecenter/seattlecenter_users.js"></script>
+	<script src="seattlecenter/seattlecenter_changesets.js"></script>
+	
+	<script src="tagCloud.js"></script>
+	<link rel="stylesheet" href="../DataTables-1.10.7/media/css/jquery.dataTables.css" type="text/css">
+    <style>
+		.ui-slider-horizontal {
+			height: 0.2em;
+		}
+		
+		.ui-slider .ui-slider-handle{
+			height: 0.6em;
+			width: 0.6em;
+		}
+	</style>
+
+	
+	<script src="stylemaps.js"></script>
+	<script src="sliders.js"></script>
+	
+    <script>
+	
+	  // Add the OSM tiled layer to the map
+	  var uid = '';
+      var map; 
+	  var nodes;
+	  var ways;
+	  var bounds;
+	  var allWays;
+	  var allNodes;
+	  var selectControl = '';
+	  var city = "seattlecenter";
+	  var userFileVariable = city + "_users";
+	  var nodeFileUrl = '';
+	  var wayFileUrl = '';
+	  var allNodeFileUrl = '';
+	  var allWayFileUrl = '';
+	  var boundsFileUrl = city + "/" + city + "_bounds.json";
+	  var imageFolder = city + "_multiples";
+	  var tagData = '';
+	  var supportedLangs = ['de','en','es','fr','pt','none'];
+	  var minDataYear = 2007;
+	  var maxDataYear = 2015;
+	  var minFilterYear = minDataYear;
+	  var maxFilterYear = maxDataYear;
+	  var minDaysActive = 1;
+	  var maxDaysActive = 100;
+	  var minChangesetsHere = 1;
+	  var maxChangesetsHere = 1000000;
+	  var minChangesetsOsm = 1;
+	  var maxChangesetsOsm = 1000000;
+	  var minPctChangesetsHere = 0;
+	  var maxPctChangesetsHere = 100;
+	  var tagList;
+	  var allNodesLoaded = false;
+	  var allWaysLoaded = false;
+	  var layersLoading = 0;
+	  
+
+		
+	  // Initialization function	
+      $(document).ready(function() {
+	  
+	    // Register event
+	    $('#selTag').on('change', function() {
+		  updateSmallMultiples();
+		});
+		
+		$('#userLangSelect').on('change', function() {
+		  updateSmallMultiples();
+		});
+		
+		
+	    setUid();
+		nodeFileUrl = city + "/" + city + "_nodes_" + uid + ".json";
+	    wayFileUrl = city + "/" + city + "_ways_" + uid + ".json";
+		allNodeFileUrl = city + "/" + city + "_nodes.json";
+		allWayFileUrl = city + "/" + city + "_ways.json";
+	    map = new OpenLayers.Map("basicMap");
+        var mapnik         = new OpenLayers.Layer.OSM("Default Mapnik basemap");
+        var fromProjection = new OpenLayers.Projection("EPSG:4326");   // Transform from WGS 1984
+        var toProjection   = new OpenLayers.Projection("EPSG:900913"); // to Spherical Mercator Projection
+        var position       = new OpenLayers.LonLat(0,0).transform( fromProjection, toProjection);
+        var zoom           = 13; 
+ 
+        map.addLayer(mapnik);
+        map.setCenter(position, zoom );
+			
+		
+		 map.addControls([new OpenLayers.Control.LayerSwitcher(),                    
+                        new OpenLayers.Control.Attribution(), new OpenLayers.Control.ZoomBox()]);
+       
+       map.addLayer(new OpenLayers.Layer.OSM("Stamen Toner basemap",                                                   
+                                           ["http://tile.stamen.com/toner/${z}/${x}/${y}.png"],
+                                            {attribution: "&copy; <a href='http://www.openstreetmap.org/'>OpenStreetMap</a> and contributors, under an <a href='http://www.openstreetmap.org/copyright' title='ODbL'>open license</a>. Toner style by <a href='http://stamen.com'>Stamen Design</a>",
+                                            "tileOptions": { "crossOriginKeyword": null }}));
+             
+
+		// Register event to update list of small multiple maps on zoom
+		map.events.register("moveend", map, function(evt){
+		  updateSmallMultiples();
+		});
+		
+		
+		updateCity();	
+		
+		// Create the sliders. References a function in sliders.js
+		createSliders();
+			
+      });
+	  
+	  function createUserLayers(){
+	   
+		
+		nodes = new OpenLayers.Layer.Vector("Nodes by this user", {
+			projection: "EPSG:4326",
+			strategies: [new OpenLayers.Strategy.BBOX()],
+			protocol: new OpenLayers.Protocol.HTTP({
+				url: nodeFileUrl,
+				format: new OpenLayers.Format.GeoJSON()
+			}),
+			styleMap: nodeStyleMap
+		});
+		
+		ways = new OpenLayers.Layer.Vector("Ways by this user", {
+			projection: "EPSG:4326",
+			strategies: [new OpenLayers.Strategy.BBOX()],
+			protocol: new OpenLayers.Protocol.HTTP({
+				url: wayFileUrl,
+				format: new OpenLayers.Format.GeoJSON()
+			}),
+			styleMap: wayStyleMap
+		});
+		
+		nodes.events.register("featureselected",nodes, selectInChangesetEvent);
+		
+		ways.events.register("featureselected",ways,selectInChangesetEvent);
+	  }
+	  
+	  function selectInChangesetEvent(evt){
+	     var changeset = evt.feature.attributes.CHANGESET;
+		 selectControl.unselectAll();
+		 selectItemsFromChangeset(changeset);
+	  }
+	  
+	  // Function that adds the nodes, ways, and bounds to the map on initial load and city change
+	  function addVectorLayers(){
+	    var layerListeners = {
+			loadstart: function(e) {
+			    layersLoading = layersLoading + 1;
+			},
+		    loadend: function(e) {	
+			    layersLoading = layersLoading - 1;
+			  
+			    // These checks help determine if everything loaded
+				if (e.object.name == "Nodes by everyone"){
+				  allNodesLoaded = true;
+				}
+				if (e.object.name == "Ways by everyone"){
+				  allWaysLoaded = true;
+				}
+				// Once all loaded and no more loading, update the small multiples
+				if (allNodesLoaded == true && allWaysLoaded == true && layersLoading == 0){
+				  updateSmallMultiples();
+				  $('#loading').css('visibility','hidden');
+				}
+			    
+			}
+		};
+		
+		createUserLayers();
+        	
+		// Add vector overlays for nodes, ways, and bounds
+		allNodes = new OpenLayers.Layer.Vector("Nodes by everyone", {
+			projection: "EPSG:4326",
+			strategies: [new OpenLayers.Strategy.BBOX()],
+			protocol: new OpenLayers.Protocol.HTTP({
+				url: allNodeFileUrl,
+				format: new OpenLayers.Format.GeoJSON()
+			}),
+			styleMap: allNodeStyleMap,
+			eventListeners: layerListeners,
+			displayInLayerSwitcher: false
+		});
+		
+		allWays = new OpenLayers.Layer.Vector("Ways by everyone", {
+			projection: "EPSG:4326",
+			strategies: [new OpenLayers.Strategy.BBOX()],
+			protocol: new OpenLayers.Protocol.HTTP({
+				url: allWayFileUrl,
+				format: new OpenLayers.Format.GeoJSON()
+			}),
+			styleMap: allWayStyleMap,
+			eventListeners: layerListeners,
+			displayInLayerSwitcher: false
+		});
+		
+		bounds = new OpenLayers.Layer.Vector("Study area boundary", {
+			projection: "EPSG:4326",
+			strategies: [new OpenLayers.Strategy.BBOX()],
+			protocol: new OpenLayers.Protocol.HTTP({
+				url: boundsFileUrl,
+				format: new OpenLayers.Format.GeoJSON()
+			}),
+			styleMap: boundsStyleMap
+		});	
+		
+		bounds.events.register('loadend', bounds, function(evt){zoomToStudyArea();})
+		
+		map.addLayer(allWays);
+		map.addLayer(allNodes);
+		map.addLayer(ways);
+		map.addLayer(nodes);
+		map.addLayer(bounds);
+		
+		addSelectControl();
+		
+			
+	  }
+	  
+	  function addSelectControl(){
+			// Listen for feature selection and unselection events.
+			selectControl = new OpenLayers.Control.SelectFeature([nodes,ways], {
+			  onUnselect: onFeatureUnselect,
+			});
+			
+			map.addControl(selectControl);
+			selectControl.activate();
+	  }	
+	  
+	  // Function that fires when user selects new city from dropdown list
+	  function updateCity(){
+	
+		 $('#loading').css('visibility','visible');
+	     var e = document.getElementById("citySelect");
+		 var newCity = e.options[e.selectedIndex].value;
+		 city = newCity;
+		 
+		 // Update all globals that use the city name
+		 userFileVariable = city + "_users";
+		 nodeFileUrl = city + "/" + city + "_nodes_" + uid + ".json";
+		 wayFileUrl = city + "/" + city + "_ways_" + uid + ".json";
+		 allNodeFileUrl = city + "/" + city + "_nodes.json";
+		 allWayFileUrl = city + "/" + city + "_ways.json";
+		 boundsFileUrl = city + "/" + city + "_bounds.json";
+		 imageFolder = city + "_multiples";
+		 
+		 setUid();
+		 populateTagDropdown();
+		 
+		 // If the vector layers have been added before, remove them and refresh select control
+		 // Can tell by checking if select control was added
+		 if (selectControl != ''){
+		  
+			 // Update the vector layers
+			 // Have to shut down the select control first
+			 selectControl.deactivate();
+			 map.removeControl(selectControl);
+			 
+			 map.removeLayer(allWays);
+			 map.removeLayer(allNodes);
+			 map.removeLayer(ways);
+			 map.removeLayer(nodes);
+			 map.removeLayer(bounds);
+			 
+			 allNodesLoaded = false;
+			 allWaysLoaded = false;
+		 
+		 }
+		 
+		 addVectorLayers();
+		 
+		 // Create sliders
+		 var users = window[userFileVariable];
+		 minDaysActive = 1;
+		 minChangesetsHere = 1;
+		 maxDaysActive = Math.max.apply(Math, users["NUM_ACTIVE_DAYS"]);
+		 maxChangesetsHere = Math.max.apply(Math, users["TARGET_CHANGESETS"]);	 
+		 minFilterYear = minDataYear;
+		 maxFilterYear = maxDataYear;
+		 minChangesetsOsm = 1;
+		 maxChangesetsOsm = 1000000;
+	     minPctChangesetsHere = 0;
+	     maxPctChangesetsHere = 100;
+		 $('#userLangSelect option[value="all"]').prop("selected", "selected").change();
+		 $('#userSortSelect option[value="slctActiveDays"]').prop("selected", "selected").change();
+	
+		 createSliders();
+		 	 
+		 // Update the rest of the UI
+		 updateUserPanel(uid);
+		 mapUserContribs(uid);
+		 zoomToStudyArea();
+		
+		 
+	  }
+	  
+	  // Make a list of all the tags and populate the dropdown list in the filter area
+	  function populateTagDropdown(){
+	    $("#selTag").empty();
+		$("#selTag").append('<option value="anyTags">(No filter applied)</option>');
+	    var tagList = [];
+		// Cycle through all tag data
+	    var allTagData = window[userFileVariable].TAGDATA;
+		for (i = 0; i < allTagData.length; i++){
+		  var obj = JSON.parse(allTagData[i].replace(/'/g,'"'));
+		  for (var property in obj) {
+			if (obj.hasOwnProperty(property)) {
+				if (tagList.indexOf(property) < 0) {
+                   tagList.push(property)
+			    } 
+			}
+		  }
+		}
+		// Sort the tags alphabetically
+		tagList.sort();
+		
+		// Add the tags to a dropdown list
+		for (i=0; i < tagList.length; i++){
+		  //Creates the item
+		  // Have to escape the colon for jQuery's benefit. Also shorten the text string so select box doesn't run over.
+		  var itemval= '<option value="' + tagList[i].replace(':','_colon_') + '">' + tagList[i].slice(0,21) + '</option>';
+
+		  //Appends it within your select element
+		  $("#selTag").append(itemval);
+		}
+		
+	  }
+	  
+	  // Function that updates the small multiple maps on zoom or sort or city change
+	  function updateSmallMultiples(){
+	    // Build an array of user JavaScript objects
+		var users = buildUserArray([allNodes,allWays]);
+		
+		var multiplesHtml = '<table class="smallMultTable" id="sortKey" ><tr><td class="smallMultImageCell"><img src="sort_key.png" alt="Sort key" id="imgSortKey" class="smallMultImage none"/></td></tr><tr><td class="smallMultTextCell"><p class="smallMultText"></p></td></tr></table>';
+		
+		// Sort the objects by criteria in the select box
+		var e = document.getElementById("userSortSelect");
+		var userSortMode = e.options[e.selectedIndex].value;
+		
+		users.sort(function(a, b){
+		  if (userSortMode == "slctActiveDays"){
+		    return (b.activeDays - a.activeDays);
+		  }
+		  else if (userSortMode == "slctChangesetsHere"){
+		    return (b.targetChangesets - a.targetChangesets);
+		  }
+		  else if (userSortMode == "slctChangesetsOsm"){
+		    return (b.changesets - a.changesets);
+		  }
+		  else if (userSortMode == "slctPctChangesetsHere"){
+		    return (b.targetPct - a.targetPct);
+		  }
+		  else if (userSortMode == "userName"){
+		    return a.userName.localeCompare(b.userName);
+		  }
+		  
+		});
+		
+		// Build the HTML image by image
+		for (var i = 0; i < users.length; i++){
+			var multUid = users[i].uid;
+			var multUname = users[i].userName;
+			var multLang = users[i].lang;
+			var imagePath = imageFolder + "/" + multUid + ".png";
+			
+			if (isInArray(multLang, supportedLangs) == false){
+			  multLang = 'other';
+			}
+			
+			langClass = multLang + "Img";
+			
+			multiplesHtml += '<table class="smallMultTable" id="tbl' + multUid + '" onclick="mapUserContribs(' + "'" + multUid + "'" + ')"><tr><td class="smallMultImageCell"><img src="' + imagePath + '" alt="User ' + multUid + '" id="img' + multUid + '" class="smallMultImage ' + langClass + '"/></td></tr><tr><td class="smallMultTextCell"><p class="smallMultText">' + multUname + '</p></td></tr></table>';
+		}
+		
+		userCountHtml = '<span class="userCountLabel">' + users.length.toString() +'</span>';
+		
+	    document.getElementById('multiplesGrid').innerHTML = multiplesHtml;
+		document.getElementById('userCountLabel').innerHTML = userCountHtml;
+		
+		// Highlight small multiple image of selected user
+		 $('#tbl' + uid).css( "border", "3px solid yellow" );
+	  
+	  }
+	  
+	  // Build array of user IDs, names, and preferred languages from multiple layers (ie, nodes and ways)
+	  // Used for updating small multiple list when extent changes
+	  function buildUserArray(layers){
+	    var userArray = [];
+		var addedUids = [];
+		var users = window[userFileVariable];
+		var extent = map.getExtent().toGeometry();
+		
+		// Check what the current language filter reads
+		var e = document.getElementById("userLangSelect");
+		var userLangFilter = e.options[e.selectedIndex].value;
+		
+		// Loop through each layer in passed in array
+	    for (var i = 0; i < layers.length; i++){
+		  var features = layers[i].features;
+		  // Loop through each feature in layer and get its stats
+		  for (var j = 0; j< features.length; j++){
+		  
+		     // Check to see if feature is in view
+			 
+			 // To improve performance, can replace next line of code with the commented line below
+
+		     //if (extent.intersectsBounds(features[j].geometry.getBounds())){
+
+			 if (extent.intersects(features[j].geometry)){  
+			 
+			   // If it is in the view, grab the properties and make a JSON object of the user
+			   var currentUid = features[j].attributes.UID;
+			   var userName = features[j].attributes.USERNAME;
+			   var userIdx = users["USERID"].indexOf(parseInt(currentUid));
+			   var lang = users["LANG_ALL"][userIdx];
+			   var activeDays = users["NUM_ACTIVE_DAYS"][userIdx];
+			   var targetChangesets = users["TARGET_CHANGESETS"][userIdx];
+			   var targetPct = users["TARGET_PCT"][userIdx];
+			   var changesets = users["CHANGESETS"][userIdx];
+			   
+			   tagData = users["TAGDATA"][userIdx];
+			   tagData = tagData.replace(/'/g,'"');
+		       tagData = JSON.parse(tagData);
+			   
+			   var meetsYearFilter = false;
+	
+			   var numDataYears = (maxDataYear - minDataYear) + 1;
+			   for (var k = 0; k < numDataYears; k++){
+				  var currentYear = minDataYear + k;
+				  var currentYearEdits = parseInt(users[String(currentYear)][userIdx]);
+				  if (currentYearEdits > 0 && currentYear >= minFilterYear && currentYear <= maxFilterYear){
+					meetsYearFilter = true;
+					break;
+				  }	  
+			   }
+			   
+			   // Create a JavaScript object representing properties of current user
+			   var currentUser = {uid:currentUid,userName:userName,lang:lang,activeDays:activeDays,targetChangesets:targetChangesets,targetPct:targetPct,changesets:changesets};
+			   
+			   // Check all set filters to see if this user should be disqualified from user list
+			   var meetsFilters = true;
+			   	   
+			   if (meetsYearFilter == false){
+			     meetsFilters = false;
+			   }
+			   
+			   var tagFilter = $("#selTag").val();
+			   if (tagFilter != "anyTags"){
+				   tagFilter = tagFilter.replace('_colon_',':');
+				   if (tagData.hasOwnProperty(tagFilter) == false){
+					   meetsFilters = false;
+				   }
+			   }	   
+			   
+		       if ((activeDays < minDaysActive) || (activeDays > maxDaysActive)){
+			       meetsFilters = false;
+			   }
+			   
+			   if ((targetChangesets < minChangesetsHere) || (targetChangesets > maxChangesetsHere)){
+				   meetsFilters = false;
+			   }
+			   
+			   if ((changesets < minChangesetsOsm) || (changesets > maxChangesetsOsm)){
+			       meetsFilters = false;
+			   }
+			   
+			   if ((targetPct < minPctChangesetsHere) || (targetPct > maxPctChangesetsHere)){
+				   meetsFilters = false;
+			   }
+			   
+			   if (userLangFilter != "all"){
+			     if (userLangFilter != currentUser.lang){
+				   meetsFilters = false;
+				 }
+			   } 
+			   
+			   // Add user JSON object to array of users, if it meets all the above filters
+               if (meetsFilters == true){
+			     if (isInArray(currentUser.uid, addedUids) == false){
+					 userArray.push(currentUser);
+					 addedUids.push(currentUid);
+				   }
+			   }			   
+		     }
+		  }
+		}
+		return userArray;
+	  }
+	  
+	  // Helper function to determine if item is in an array already
+	  function isInArray(value, array) {
+        return array.indexOf(value) > -1;
+	  }	
+	  
+	
+	  // Draw a selected user's contributions on the map
+	  function mapUserContribs(newUid){
+		 var previousUid = uid;
+		 uid = newUid;
+		 nodeFileUrl = city + "/" + city + "_nodes_" + uid + ".json";
+	     wayFileUrl = city + "/" + city + "_ways_" + uid + ".json";
+		 
+		 // Highlight new box in small multiples table
+		 $('#tbl' + previousUid).css( "border", "0px solid black" );
+		 $('#tbl' + uid).css( "border", "3px solid yellow" );
+		 
+		 // Remove old user layers and replace with new ones
+		 selectControl.unselectAll();
+		 selectControl.deactivate();
+		 map.removeControl(selectControl);
+		 
+		 nodes = map.getLayersByName("Nodes by this user")[0];
+		 ways = map.getLayersByName("Ways by this user")[0];
+		 bounds = map.getLayersByName("Study area boundary")[0];
+	
+		 map.removeLayer(nodes);
+		 map.removeLayer(ways);
+		 map.removeLayer(bounds);
+		 
+		 createUserLayers();
+		 map.addLayer(ways);
+		 map.addLayer(nodes);
+		 map.addLayer(bounds);
+		 
+		 addSelectControl();
+		 	 
+		 updateUserPanel(newUid);
+		 	 
+	  }
+	  
+	  function updateUserPanel(newUid){
+	  
+		  // Derive variables from user JSON file
+		  var users = window[userFileVariable];
+		  var userIdx = users["USERID"].indexOf(parseInt(newUid));
+		  var username = users["USER"][userIdx];
+	
+		
+		  var profile = users["PROFILE"][userIdx];
+		  var wiki = users["WIKI"][userIdx];
+		  var activeDays = users["NUM_ACTIVE_DAYS"][userIdx];
+		  var osmChangesets = users["CHANGESETS"][userIdx];
+		  var changesetsHere = users["TARGET_CHANGESETS"][userIdx];
+		  var changesetsNotHere = osmChangesets - changesetsHere;
+		  var language = getLanguage(users["LANG_ALL"][userIdx]);
+		 
+		  tagData = users["TAGDATA"][userIdx];
+		  tagData = tagData.replace(/'/g,'"');
+		  tagData = JSON.parse(tagData);
+		  		  
+		  // Make list of edits by year for sparkline
+		  var editsByYear = '';
+		  for (var year = minDataYear; year <= maxDataYear; year++){
+		    editsByYear += String(users[String(year)][userIdx]) + ',';
+		  }
+		  editsByYear = editsByYear.slice(0,-1);
+		  
+		  var profileUrl = 'http://www.openstreetmap.org/user/' + username;
+		  var wikiUrl = 'http://wiki.openstreetmap.org/wiki/User:' + username;
+		  
+		  // Populate information in right-hand user panel
+		  if (profile == 'YES' && wiki == 'NO'){	 
+			 document.getElementById('userPages').innerHTML = '<p><a href="' + profileUrl + '" target="_blank">User profile</a></p>';
+		  }	  
+		  else if (profile == 'NO' && wiki == 'YES'){	 
+			  document.getElementById('userPages').innerHTML = '<p><a href="' + wikiUrl + '" target="_blank">User wiki</a></p>';
+		  }
+		  else if (profile == 'YES' && wiki == 'YES'){
+			  document.getElementById('userPages').innerHTML = '<p><a href="' + profileUrl + '" target="_blank">User profile</a>&nbsp;&nbsp;<a href="' + wikiUrl + '" target="_blank">User wiki</a></p>';
+		  }
+		  else if (profile == 'NO' && wiki == 'NO'){
+			  document.getElementById('userPages').innerHTML = '<p>No profile or wiki page available for this user</p>';
+		  }
+		  
+		  document.getElementById('userTitle').innerHTML = '<p>' + username + '</p>';
+		  
+		  document.getElementById('languageLabel').innerHTML = '<p>Favored language in OSM comments:</p>';
+		  document.getElementById('language').innerHTML = '<p>' + language + '</p>';
+		  
+		  document.getElementById('activeDaysLabel').innerHTML = '<p>Active days here:</p>';
+		  document.getElementById('activeDays').innerHTML = '<p>' + activeDays.toString() + '&nbsp;&nbsp;&nbsp;<span class="sparkbarLabel">' + minDataYear + '&nbsp;</span><span class="sparkbar">' + editsByYear + '</span><span class="sparkbarLabel">&nbsp;' + maxDataYear + '</span></p>';
+		  $('.sparkbar').sparkline('html', { type: 'bar' });
+		  
+		  document.getElementById('osmChangesetsLabel').innerHTML = "<p>Fraction of user's changesets here:</p>";
+		  document.getElementById('osmChangesets').innerHTML = '<p>'  + changesetsHere.toString() + '&nbsp;/&nbsp;' + osmChangesets.toString() + '&nbsp;&nbsp;<span class="sparkpie">' + changesetsHere + ',' + changesetsNotHere + '</span></p>';
+		  $('.sparkpie').sparkline('html', { type: 'pie', sliceColors: ['#6495ED','#FFFFFF'], offset: -90 });
+		
+		  // Call tag cloud function from other javascript file to build the tag cloud
+		  document.getElementById("topTagsText").innerHTML = buildTagCloud(tagData);
+		  
+		  // Update table of comments
+		  var commentsFileVariable = city + "_changesets";
+		  var comments = window[commentsFileVariable];
+		  var dataSet = [];
+		 
+		  for (var key in comments) {
+		   if (comments.hasOwnProperty(key)) {
+			  var obj = comments[key];
+			  if (obj["USERID"] == newUid){
+			    dataSet.push([key,obj["DATE"],obj["COMMENT"]]);
+			  }	
+		   }
+		  }
+		 
+		 $('#commentTable').html( '<table cellpadding="0" cellspacing="0" border="0" class="" id="example" ></table>' );
+		
+		$('#example').dataTable( {
+		    "paging" : false,
+			"scrollY": "300px",
+			"scrollCollapse": true,
+			"info" : false,
+			"searching" : false,
+			"ordering" : false,
+			"data": dataSet,
+			"columns": [
+				{ "title": "Changeset" },
+				{ "title": "Date" },
+				{ "title": "Comment" }
+			]
+		} );
+	 
+	     // Handle event when a row is highlighted in the table
+		 $('#example tbody').on( 'click', 'tr', function () {
+			var table = $('#example').DataTable();
+			if ( $(this).hasClass('selected') ) {
+                $(this).removeClass('selected');
+			}
+			else {
+				table.$('tr.selected').removeClass('selected');
+				$(this).addClass('selected');
+			}
+			
+			var selectedRows = table.rows('.selected').data();
+			var selectedChangesets = [];
+			for (var i = 0; i < selectedRows.length; i++){
+			    selectedChangesets.push(selectedRows[i][0]);
+			}
+			highlightFeatures(selectedChangesets);
+		 } );
+		 	   
+	  }
+	  
+	  // Select all features from a list of changeset IDs
+	  function highlightFeatures(changesetList){
+		selectControl.unselectAll();
+		
+		// In each changeset...
+	    for (var i = 0; i < changesetList.length; i++){
+		
+		  selectItemsFromChangeset(changesetList[i]);
+		
+		    
+		}
+	  }
+	  
+	  function selectItemsFromChangeset(id){
+	  
+	    // To avoid endless loop, unregister the selection event while all features in changeset are painted
+	    nodes.events.unregister("featureselected",nodes, selectInChangesetEvent);
+		ways.events.unregister("featureselected",ways, selectInChangesetEvent);
+		
+	    // Get all node and way vector features in the changeset
+		var nodesInChangeset = nodes.getFeaturesByAttribute("CHANGESET", id);
+		var waysInChangeset = ways.getFeaturesByAttribute("CHANGESET", id);
+		  
+		// Select all node and way vector features in the changeset
+		for (var j = 0; j < nodesInChangeset.length; j++){
+		    selectControl.select(nodesInChangeset[j]);
+		}
+		for (var k = 0; k < waysInChangeset.length; k++){
+		  selectControl.select(waysInChangeset[k]);
+		}	
+		
+		// Highlight the row in the data table
+		var table = $('#example').DataTable();
+		table.rows().every( function () {
+			var data = this.data();
+			if (data[0] == id){
+			  this.nodes().to$().addClass('selected');
+			}
+			else if ((data[0] != id) && (this.nodes().to$().hasClass('selected')) ) {
+                this.nodes().to$().removeClass('selected');
+			}
+		} );
+		
+		// Re-register the selection event after all features in the changeset are painted
+		nodes.events.register("featureselected",nodes, selectInChangesetEvent);
+		ways.events.register("featureselected",ways, selectInChangesetEvent);
+	  
+	  }
+	  
+	
+	  
+	  // When feature is unselected, remove all highlights from table
+	  function onFeatureUnselect(feature){
+	    var table = $('#example').DataTable();
+		table.rows().every( function () {
+		  if (this.nodes().to$().hasClass('selected')){
+		    this.nodes().to$().removeClass('selected');
+		  }
+		});
+	  }
+	  
+	  // Utility function for getting full language name based on two-character code
+	  function getLanguage(lang){
+		  if (lang == 'de'){
+		    return 'German';
+		  }
+		  else if (lang == 'en'){
+		    return 'English';
+		  }
+		  else if (lang == 'es'){
+		    return 'Spanish';
+		  }
+		  else if (lang == 'fr'){
+		    return 'French';
+		  }
+		  else if (lang == 'nl'){
+		    return 'Dutch';
+		  }
+		  else if (lang == 'pt'){
+		    return 'Portuguese';
+		  }
+		  else if (lang == 'none'){
+		    return 'No language detected';
+		  }
+		  else {
+		    return 'Other';
+		  }
+	  }
+	  
+	  // Zooms to the study area boundary
+	  function zoomToStudyArea(){
+	    map.zoomToExtent(bounds.getDataExtent());
+	  }
+	  
+	  // Set the UID to whatever first ID is found in the nodes layer
+	  function setUid(){
+	    var users = window[userFileVariable];
+		var sortProperty = "NUM_ACTIVE_DAYS";
+		var max = users[sortProperty][0];
+		var maxIndex = 0;
+
+		for (var i = 1; i < users[sortProperty].length; i++) {
+			if (users[sortProperty][i] > max) {
+				maxIndex = i;
+				max = users[sortProperty][i];
+			}
+		}
+	    uid = users["USERID"][maxIndex];
+	  }
+	  
+	  function toggleLoadingImage(){
+	    if ( $('#loading').css('visibility') == 'hidden' )
+		  $('#loading').css('visibility','visible');
+	    else
+		  $('#loading').css('visibility','hidden');
+	  }
+	  
+	  
+    </script>
+  </head>
+  <body>
+    
+	<div id="wrapper">
+	    <div id="topBar">
+
+			  <div id="logo">
+			    <img src="logo.png" alt="Crowd Lens for OpenStreetMap logo"></img>
+			  </div>
+			  <div id="citySelectDiv" class="filterSelect"><span class="uiLabel">Select city: </span> 
+			    <select id="citySelect" onchange="updateCity()">
+				    <option value="seattlecenter" selected="selected">Seattle Center (Seattle), USA</option>
+					<option value="copacabana">Copacabana (Rio de Janeiro), Brazil</option>
+					<option value="johnstown">Johnstown, USA</option>
+					<option value="tresarroyos">Tres Arroyos, Argentina</option>
+					<option value="hereford">Hereford, UK</option>
+					<option value="suhum">Suhum, Ghana</option>
+					<option value="kadiri">Kadiri, India</option>
+					<option value="herveybay">Hervey Bay, Australia</option>
+				</select>
+			  </div>
+			 
+			  
+			  <div id="fullExtent">
+			    <span class="uiLabel"><a href="javascript:zoomToStudyArea();">Zoom to full area</a></a>
+			  </div>
+			  <div id="aboutLink"><a href="help/about.html">About</a></div>
+			  <div id="videoLink"><a href="http://www.sterlingquinn.net/videos/crowdlens.mp4" target="_blank">Video</a></div>
+			  <div id="helpLink"><a href="help/help.html">Help</a></div>
+			  <div id="attributionImages"><A href="http://www.geovista.psu.edu/"><img src="attribution/gv_logo.png" alt="GeoVISTA Center logo"></img></a></div>
+			  
+		</div>
+		<div class="lowerSection">
+		<div class="verticalSeparatorLeft"></div>
+		<div id="filterPanel">
+			<div id="filters">
+				<p class="uiLabel">Set these filters or move the map to narrow the contributor list.</p>
+				<table class="sliderLabelTable">
+					<tr>
+						<td class="sliderLabelCell"><label class="uiLabelBold" for="amount">Days active here&nbsp;&nbsp;</label></td>
+						<td class="sliderValueCell"><input type="text" id="daysactive" readonly class="sliderLabel"></td>
+					</tr>
+				</table>
+				<div id="slider-daysactive"></div>
+				<br />
+		
+				<table class="sliderLabelTable">
+					<tr>
+						<td class="sliderLabelCell"><label class="uiLabelBold" for="amount">Changesets here&nbsp;&nbsp;</label></td>
+						<td class="sliderValueCell"><input type="text" id="changesetshere" readonly class="sliderLabel"></td>
+					</tr>
+				</table>
+				<div id="slider-changesetshere"></div>
+				<br />
+			
+				<table class="sliderLabelTable">
+				  <tbody>
+					<tr>
+						<td class="sliderLabelCell"><label class="uiLabelBold" for="amount">Changesets in OSM&nbsp;&nbsp;</label></td>
+						<td class="sliderValueCell"><input type="text" id="changesetsosm" readonly class="sliderLabel"></td>
+					</tr>
+				  </tbody>
+				</table>
+				<div id="slider-changesetsosm"></div>
+				<br />
+			
+				<table class="sliderLabelTable">
+					<tr>
+						<td class="sliderLabelCell"><label class="uiLabelBold" for="amount">Percent of user's changesets here&nbsp;&nbsp;</label></td>
+						<td class="sliderValueCell"><input type="text" id="pctchangesetsosm" readonly class="sliderLabel"></td>
+					</tr>
+				</table>
+				<div id="slider-pctchangesetsosm"></div>
+				<br />
+				
+				<table class="sliderLabelTable">
+					<tr>
+						<td class="sliderLabelCell"><label class="uiLabelBold" for="amount">Years active here&nbsp;&nbsp;</label></td>
+						<td class="sliderValueCell"><input type="text" id="yearsactive" readonly class="sliderLabel"></td>
+					</tr>
+				</table>
+				<div id="slider-yearsactive"></div>
+				<br />
+				
+				<table class="sliderLabelTable">
+				  <tr>
+				    <td class="sliderLabelCell"><label class="uiLabelBold">Tag filter&nbsp;</label></td>
+					<td class="sliderValueCell"><select id="selTag"></select></td>	
+				</table>
+				<br />
+				<table class="sliderLabelTable">
+				  <tr>
+				    <td class="sliderLabelCell"><label class="uiLabelBold">Language filter&nbsp;</label></td>
+					<td class="sliderValueCell">
+					<select id="userLangSelect">
+					  <option value="all">(No filter applied)</option>
+					  <option value="en">English</option>
+					  <option value="fr">French</option>
+					  <option value="de">German</option>
+					  <option value="es">Spanish</option>
+					  <option value="pt">Portuguese</option>
+					  <option value="other">Other</option>
+					  <option value="none">None</option>
+					</select></td>	
+				</table>
+				
+				
+			</div>
+			<div id="langLegend"><img src="lang_legend.png" alt="Language legend"</img></div>
+		</div>
+	    
+		<div class="verticalSeparatorLeft"></div>
+
+		<div id="rightPanel">
+			<table id="userTitleTable">
+				<tr>
+					<td id="userTitle" class="userTableTitle"></td>
+				</tr>
+				<tr>
+					<td id="userPages" class="userTablePages"></td>
+				</tr>
+			</table>
+			<table id="userInfoTable">
+				<tr>
+					<td id="languageLabel" class="userTableLabel"></td>
+					<td id="language" class="userTableValue"></td>
+				</tr>
+				<tr>
+					<td id="osmChangesetsLabel" class="userTableLabel"></td>
+					<td id="osmChangesets" class="userTableValue"></td>
+				</tr>
+				<tr>
+					<td id="activeDaysLabel" class="userTableLabel"></td>
+					<td id="activeDays" class="userTableValue"></td>
+				</tr>
+							
+			</table>
+			
+			<p id="topTagsText"></p>
+			
+			<div id="commentTable">
+				
+			</div>
+		</div>
+		
+		<div class="middlePanel">
+		<div id="basicMap">
+		  
+		</div>
+		
+		<div class="horizontalSeparator">
+		   <div id="userCount">
+		     <p><span class="uiLabel">Contributors in current map view:&nbsp;</span><span id="userCountLabel" class="userCountLabel">0</span></p>
+		   </div>
+		   <div id="userSortDiv"><span class="uiLabel">Sort by: </span> 
+				<select id="userSortSelect" onchange="updateSmallMultiples()">
+				  <option value="slctActiveDays">Days active here</option>
+				  <option value="slctChangesetsHere">Changesets here</option>
+				  <option value="slctChangesetsOsm">Changesets in all OSM</option>
+				  <option value="slctPctChangesetsHere">% of user's changesets here</option>
+				  <option value="userName">User name</option>
+				</select> 
+			  </div>
+			  <div id="loading"><span class="userCountLabel">Loading...</span><img id="loadingImage" src="loading.gif"></img></div>
+		</div>
+		<div id="multipleMaps">
+			<div id="multiplesGrid"></div>	
+		</div>
+		</div>
+		</div>
+		
+		
+	</div>
+  </body>
+</html>

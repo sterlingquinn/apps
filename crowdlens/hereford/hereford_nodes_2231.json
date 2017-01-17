@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "663793218v2", "TIMESTAMP": "2013-08-22T22:41:35Z", "UID": "2231", "USERNAME": "Deanna Earley", "CHANGESET": "17460725" }, "geometry": { "type": "Point", "coordinates": [ -2.717336, 52.05622180000006 ] } }
+]
+}

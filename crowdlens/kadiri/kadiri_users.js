@@ -1,0 +1,21 @@
+var kadiri_users = {
+   "USERID":[1306,12946,56597,88592,91490,123364,136860,398735,402624,439726,632616,753014,1233323,1587943,1746839,2891363,2897038,3103507,3266731],
+   "USER":["PlaneMad","AND","Oberaffe","Bharath Reddy G V","Heinz_V","Tronikon","indigomc","Ashim","bdiscoe","chandusekharreddy","osmr","KIngaJOnes","Harilal_TN","Sakthi20","HarshaHUL","Nikhil04","shiva05","PR_Mapper","Talvi"],
+   "NUM_ACTIVE_DAYS":[7,1,1,1,5,1,3,1,1,1,1,1,2,2,1,2,1,2,1],
+   "TARGET_CHANGESETS":[8,2,1,1,6,1,3,1,2,1,1,1,2,3,2,2,1,3,3],
+   "CHANGESETS":[12697,1582,8837,26,30508,7362,4997,532,14121,1457,320,2622,16,2016,477,3578,1931,308,34],
+   "TARGET_PCT":[0.063,0.126,0.011,3.846,0.02,0.014,0.06,0.188,0.014,0.069,0.313,0.038,12.5,0.149,0.419,0.056,0.052,0.974,8.824],
+   "LANG_ALL":["en","en","en","en","en","de","en","en","en","none","en","en","en","none","en","en","en","en","en"],
+   "PROFILE":["YES","YES","YES","YES","NO","NO","YES","NO","YES","NO","NO","NO","NO","NO","NO","NO","NO","NO","NO"],
+   "WIKI":["NO","NO","YES","NO","NO","NO","YES","NO","YES","NO","NO","NO","NO","NO","NO","NO","NO","NO","NO"],
+   "2007":["0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0"],
+   "2008":["0","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0"],
+   "2009":["0","0","0","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0"],
+   "2010":["1","0","1","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0"],
+   "2011":[3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+   "2012":[2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0],
+   "2013":[1,0,0,0,2,0,0,0,0,0,0,0,2,2,0,0,0,0,0],
+   "2014":[0,0,0,0,2,0,1,0,0,0,0,0,0,0,1,0,0,0,0],
+   "2015":[0,0,0,0,1,1,2,1,1,1,0,1,0,0,0,2,1,2,1],
+   "TAGDATA":["{'and:importance_level':1,'and_a_nosr_r':1,'highway':3,'name':1,'railway':7,'ref':1,'source':7,'waterway':3}","{'and:importance_level':12,'and_a_c':1,'and_a_nosr_p':1,'and_a_nosr_r':12,'highway':12,'name':2,'place':2,'population':1,'postal_code':1,'ref':6,'source':19}","{'highway':4,'ref':2}","{'and:importance_level':4,'and_a_nosr_r':4,'created_by':4,'highway':4,'ref':4}","{'and_a_nosr_p':1,'bridge':1,'highway':12,'layer':1,'name':2,'place':1,'population':1,'postal_code':1,'railway':3,'ref':6,'ref:new':1,'ref:old':2,'source':4}","{'bridge':1,'electrified':4,'gauge':4,'layer':1,'railway':4,'source':4,'usage':4}","{'access':2,'bicycle':2,'cycleway':2,'foot':2,'highway':3,'horse':2,'lanes':2,'motor_vehicle':2,'name':3,'name:kn':1,'name:te':1,'oneway':2,'place':1,'population':1,'postal_code':1,'ref':3,'ref:old':3,'sidewalk':2,'surface':2}","{'name':1,'railway':1,'ref':1}","{'bridge':2,'building':3,'electrified':3,'gauge':3,'highway':61,'layer':2,'railway':4,'ref':1,'ref:old':1,'source':3,'usage':3,'waterway':3}","{'highway':1}","{'railway':6,'source':6}","{'barrier':4,'building':1}","{'lat':1,'long':1,'name':1,'place':1,'sl_no':1}","{'gps_trail':2,'highway':4,'name':1,'place':1,'ref':1}","{'railway':2,'source':2}","{'building':152,'highway':1}","{'building':2}","{'access':8,'bicycle':8,'cycleway':8,'electrified':1,'foot':8,'gauge':1,'highway':8,'horse':8,'lanes':8,'motor_vehicle':8,'name':9,'oneway':8,'place':1,'railway':1,'ref':8,'ref:old':8,'sidewalk':8,'source':1,'surface':8,'usage':1}","{'access':1,'bicycle':1,'cycleway':1,'electrified':2,'foot':1,'gauge':2,'highway':1,'horse':1,'lanes':1,'motor_vehicle':1,'name':1,'oneway':1,'railway':2,'ref':1,'ref:old':1,'sidewalk':1,'source':2,'surface':1,'usage':2}"]
+};

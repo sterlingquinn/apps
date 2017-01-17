@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "6383224v3", "TIMESTAMP": "2009-03-03T01:44:04Z", "UID": "34124", "USERNAME": "Sunny", "CHANGESET": "729213", "SHAPE_Leng": 0.001977 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -122.3501656, 47.620116600000074 ], [ -122.3501613, 47.620928 ], [ -122.3501231, 47.622093200000052 ] ] ] } },
+{ "type": "Feature", "properties": { "ID_V": "6383224v4", "TIMESTAMP": "2009-03-03T01:44:25Z", "UID": "34124", "USERNAME": "Sunny", "CHANGESET": "729213", "SHAPE_Leng": 0.001977 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -122.3501656, 47.620116600000074 ], [ -122.3501613, 47.620928 ], [ -122.3501231, 47.622093200000052 ] ] ] } },
+{ "type": "Feature", "properties": { "ID_V": "6506135v3", "TIMESTAMP": "2009-03-03T01:44:15Z", "UID": "34124", "USERNAME": "Sunny", "CHANGESET": "729213", "SHAPE_Leng": 0.002569 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -122.3501613, 47.620928 ], [ -122.3475924, 47.620938300000034 ] ] ] } },
+{ "type": "Feature", "properties": { "ID_V": "8045965v3", "TIMESTAMP": "2009-01-21T16:19:20Z", "UID": "34124", "USERNAME": "Sunny", "CHANGESET": "821443", "SHAPE_Leng": 0.011757 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -122.3475814, 47.618551800000034 ], [ -122.347425153535, 47.61848 ] ] ] } },
+{ "type": "Feature", "properties": { "ID_V": "8111488v4", "TIMESTAMP": "2009-01-21T16:20:41Z", "UID": "34124", "USERNAME": "Sunny", "CHANGESET": "821443", "SHAPE_Leng": 0.005082 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -122.3488634, 47.619687300000066 ], [ -122.3475586, 47.619702500000074 ], [ -122.347418, 47.61970256548679 ] ] ] } },
+{ "type": "Feature", "properties": { "ID_V": "8111488v5", "TIMESTAMP": "2009-01-21T16:21:29Z", "UID": "34124", "USERNAME": "Sunny", "CHANGESET": "821443", "SHAPE_Leng": 0.005082 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -122.3488634, 47.619687300000066 ], [ -122.3475586, 47.619702500000074 ], [ -122.347418, 47.61970256548679 ] ] ] } },
+{ "type": "Feature", "properties": { "ID_V": "22767837v2", "TIMESTAMP": "2009-03-03T01:40:40Z", "UID": "34124", "USERNAME": "Sunny", "CHANGESET": "729213", "SHAPE_Leng": 0.002372 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -122.3527797, 47.620917500000076 ], [ -122.3527811, 47.622098600000072 ], [ -122.3527534, 47.623288900000034 ] ] ] } },
+{ "type": "Feature", "properties": { "ID_V": "22767840v2", "TIMESTAMP": "2009-01-21T16:22:21Z", "UID": "34124", "USERNAME": "Sunny", "CHANGESET": "821443", "SHAPE_Leng": 0.003836 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -122.3475727, 47.622088100000042 ], [ -122.347418, 47.622086403196541 ] ] ] } }
+]
+}

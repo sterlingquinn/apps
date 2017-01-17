@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>About Crowd Lens</title>
+		<link rel="stylesheet" href="../style.css" type="text/css">
+	</head>
+	<body class="helpbody">	
+
+	<div class="helpdiv">
+	<h2>Who made Crowd Lens?</h2>
+	<p>Crowd Lens for OpenStreetMap was designed and implemented as a research project by <a href="http://www.sterlingquinn.net">Sterling Quinn</a>, a PhD candidate in the <a href="http://www.geog.psu.edu/">Penn State University Department of Geography</a>. <a href="http://www.geog.psu.edu/people/maceachren-alan">Dr. Alan MacEachren</a> was a faculty advisor to the project, <a href="http://www.linkedin.com/in/gmgis/">Greg Milbourne</a> helped with data processing and prototyping, and the <a href="http://www.geovista.psu.edu/">GeoVISTA Center</a> provided computing support. </p>
+	<h2>Where did the data come from?</h2>
+	<p>All data in this project comes from the publicly available OSM full history dump file and the full OSM changeset history. Both were taken from the final week of 2015. Data was processed using <a href="http://www.qgis.org">QGIS</a>, <a href="http://www.gdal.org">GDAL</a>, <a href="http://www.arcgis.com">ArcGIS</a>, as well as Python scripts written by Sterling Quinn. The open source <a href="https://github.com/saffsd/langid.py">langid.py</a> module by Marco Lui and Timothy Baldwin was used for language detection. The Esri map automation Python library <a href="http://resources.arcgis.com/EN/HELP/MAIN/10.2/00s3/00s300000032000000.htm">arcpy.mapping</a> was used for creating the thumbnail maps. The <a href="http://www.openlayers.org">OpenLayers</a> toolkit was used for embedding the web map.</p>
+	<h2>Supported display and browser specifications</h2>
+	<p>For fully functional interaction, Crowd Lens should be viewed on a desktop or laptop computer, maximized in the browser at a resolution greater than 1024 x 768. Crowd Lens is not supported on mobile devices. Crowd Lens works best when viewed in Mozilla Firefox or Google Chrome; some features of Crowd Lens may be sluggish or nonfunctional in Internet Explorer.</p>
+	<h2>Known issues</h2>
+	<ul>
+	<li>The data shown in Crowd Lens requires extensive preprocessing, therefore Crowd Lens is currently only available for the cities in the top dropdown menu. <A href="http://sterlingquinn.net/using-small-cities-to-learn-about-crowdsourcing-in-openstreetmap/">Sterling's research focus</a> is on comparing coverage in small cities (population approximately 50,000-100,000) around the world, particularly in the Global South. Small cities receive much less attention than large urban areas, and are perhaps a more accurate barometer of OpenStreetMap health within a particular world region.</li>
+<li>For simplicity and interactivity, Crowd Lens currently uses GeoJSON vector layers to display the currently selected contributor's nodes and ways on the map. This works fine for most contributors and is usually conducive to fast performance, but with some very active contributors the browser can become sluggish when trying to draw all the nodes and ways.</li>
+<li>When there are overlapping nodes or ways on the map, only the topmost feature can be clicked. To highlight features beneath, click the corresponding row in the changeset table.</li>
+<li>When clicking the changeset table, associated nodes and ways that are not the topmost feature currently are highlighted with a thin yellow outline; they do not move to the top, so they may be difficult to see at first.</li>
+<li>On rare occasions, some ways extending far outside the city may not appear on the map. In order to create the node and way GeoJSON overlays in each city, a large portion of the surrounding region was downloaded and processed. Ways that are so long they extend beyond even this region are omitted from the map. This tends to occur more often near the beginning of the OpenStreetMap history when there were more long unbroken highways. It can also happen with large administrative boundaries such as state or county lines.</li>
+</ul>
+	<p><a href="../index.html">Back to Crowd Lens</a></p>
+
+</div>
+	</body>
+</html>

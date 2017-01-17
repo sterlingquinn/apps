@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "36928368v2", "TIMESTAMP": "2015-10-24T14:15:13Z", "UID": "3333468", "USERNAME": "KurtLB", "CHANGESET": "34841525", "SHAPE_Leng": 0.00063 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 152.85522270000001, -25.329197299999976 ], [ 152.85513540000011, -25.329055499999981 ], [ 152.85526120000009, -25.328968399999951 ], [ 152.85534270000005, -25.329104599999937 ], [ 152.85522270000001, -25.329197299999976 ] ] ] } },
+{ "type": "Feature", "properties": { "ID_V": "36928372v4", "TIMESTAMP": "2015-10-24T14:15:13Z", "UID": "3333468", "USERNAME": "KurtLB", "CHANGESET": "34841525", "SHAPE_Leng": 0.001571 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 152.85534270000005, -25.329104599999937 ], [ 152.85623960000009, -25.329214199999967 ], [ 152.8569020000001, -25.329295099999968 ] ] ] } },
+{ "type": "Feature", "properties": { "ID_V": "376680517v1", "TIMESTAMP": "2015-10-24T14:15:13Z", "UID": "3333468", "USERNAME": "KurtLB", "CHANGESET": "34841525", "SHAPE_Leng": 0.001742 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 152.85623960000009, -25.329214199999967 ], [ 152.85610482736021, -25.33 ] ] ] } }
+]
+}

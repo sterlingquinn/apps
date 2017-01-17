@@ -1,0 +1,19 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "33319360v3", "TIMESTAMP": "2011-08-01T10:58:07Z", "UID": "482621", "USERNAME": "Rob West", "CHANGESET": "8889566" }, "geometry": { "type": "Point", "coordinates": [ -2.6976213, 52.05586930000004 ] } },
+{ "type": "Feature", "properties": { "ID_V": "33319361v3", "TIMESTAMP": "2011-08-01T10:58:07Z", "UID": "482621", "USERNAME": "Rob West", "CHANGESET": "8889566" }, "geometry": { "type": "Point", "coordinates": [ -2.697639399999957, 52.05573540000006 ] } },
+{ "type": "Feature", "properties": { "ID_V": "424430220v2", "TIMESTAMP": "2011-08-01T10:58:11Z", "UID": "482621", "USERNAME": "Rob West", "CHANGESET": "8889566" }, "geometry": { "type": "Point", "coordinates": [ -2.703248599999938, 52.055286100000046 ] } },
+{ "type": "Feature", "properties": { "ID_V": "424430213v2", "TIMESTAMP": "2011-08-01T10:58:11Z", "UID": "482621", "USERNAME": "Rob West", "CHANGESET": "8889566" }, "geometry": { "type": "Point", "coordinates": [ -2.702562099999966, 52.054708400000038 ] } },
+{ "type": "Feature", "properties": { "ID_V": "424430216v2", "TIMESTAMP": "2011-08-01T10:58:11Z", "UID": "482621", "USERNAME": "Rob West", "CHANGESET": "8889566" }, "geometry": { "type": "Point", "coordinates": [ -2.702708899999948, 52.054981100000077 ] } },
+{ "type": "Feature", "properties": { "ID_V": "424430218v2", "TIMESTAMP": "2011-08-01T10:58:12Z", "UID": "482621", "USERNAME": "Rob West", "CHANGESET": "8889566" }, "geometry": { "type": "Point", "coordinates": [ -2.702971099999957, 52.054990500000031 ] } },
+{ "type": "Feature", "properties": { "ID_V": "414987565v3", "TIMESTAMP": "2011-08-01T10:58:08Z", "UID": "482621", "USERNAME": "Rob West", "CHANGESET": "8889566" }, "geometry": { "type": "Point", "coordinates": [ -2.701981399999966, 52.05498220000004 ] } },
+{ "type": "Feature", "properties": { "ID_V": "302421973v2", "TIMESTAMP": "2011-08-01T10:58:09Z", "UID": "482621", "USERNAME": "Rob West", "CHANGESET": "8889566" }, "geometry": { "type": "Point", "coordinates": [ -2.698937099999966, 52.055165300000056 ] } },
+{ "type": "Feature", "properties": { "ID_V": "86862465v3", "TIMESTAMP": "2011-08-01T10:58:07Z", "UID": "482621", "USERNAME": "Rob West", "CHANGESET": "8889566" }, "geometry": { "type": "Point", "coordinates": [ -2.703961399999969, 52.053978800000039 ] } },
+{ "type": "Feature", "properties": { "ID_V": "1381655692v1", "TIMESTAMP": "2011-08-01T10:58:00Z", "UID": "482621", "USERNAME": "Rob West", "CHANGESET": "8889566" }, "geometry": { "type": "Point", "coordinates": [ -2.698862, 52.05505160000007 ] } },
+{ "type": "Feature", "properties": { "ID_V": "33319359v4", "TIMESTAMP": "2011-08-01T10:58:07Z", "UID": "482621", "USERNAME": "Rob West", "CHANGESET": "8889566" }, "geometry": { "type": "Point", "coordinates": [ -2.697397799999976, 52.055729400000075 ] } },
+{ "type": "Feature", "properties": { "ID_V": "33319358v3", "TIMESTAMP": "2011-08-01T10:58:07Z", "UID": "482621", "USERNAME": "Rob West", "CHANGESET": "8889566" }, "geometry": { "type": "Point", "coordinates": [ -2.697396399999946, 52.05586420000003 ] } }
+]
+}

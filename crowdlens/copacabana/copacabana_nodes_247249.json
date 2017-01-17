@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "142368546v4", "TIMESTAMP": "2010-03-15T19:31:35Z", "UID": "247249", "USERNAME": "hugo-sgm", "CHANGESET": "4137555" }, "geometry": { "type": "Point", "coordinates": [ -43.196581, -22.9857779 ] } },
+{ "type": "Feature", "properties": { "ID_V": "667025225v1", "TIMESTAMP": "2010-03-15T19:31:36Z", "UID": "247249", "USERNAME": "hugo-sgm", "CHANGESET": "4137555" }, "geometry": { "type": "Point", "coordinates": [ -43.1942976, -22.985861899999975 ] } },
+{ "type": "Feature", "properties": { "ID_V": "142180554v9", "TIMESTAMP": "2010-03-15T19:31:34Z", "UID": "247249", "USERNAME": "hugo-sgm", "CHANGESET": "4137555" }, "geometry": { "type": "Point", "coordinates": [ -43.197885699999972, -22.986757699999941 ] } },
+{ "type": "Feature", "properties": { "ID_V": "598749015v2", "TIMESTAMP": "2010-03-15T19:31:33Z", "UID": "247249", "USERNAME": "hugo-sgm", "CHANGESET": "4137555" }, "geometry": { "type": "Point", "coordinates": [ -43.1974482, -22.984637 ] } },
+{ "type": "Feature", "properties": { "ID_V": "25038512v3", "TIMESTAMP": "2010-03-15T19:31:33Z", "UID": "247249", "USERNAME": "hugo-sgm", "CHANGESET": "4137555" }, "geometry": { "type": "Point", "coordinates": [ -43.196857699999953, -22.984665899999982 ] } },
+{ "type": "Feature", "properties": { "ID_V": "142367879v5", "TIMESTAMP": "2010-03-15T19:31:35Z", "UID": "247249", "USERNAME": "hugo-sgm", "CHANGESET": "4137555" }, "geometry": { "type": "Point", "coordinates": [ -43.196821399999976, -22.985975399999973 ] } },
+{ "type": "Feature", "properties": { "ID_V": "142189206v17", "TIMESTAMP": "2010-03-15T19:31:35Z", "UID": "247249", "USERNAME": "hugo-sgm", "CHANGESET": "4137555" }, "geometry": { "type": "Point", "coordinates": [ -43.194117699999936, -22.983944699999938 ] } },
+{ "type": "Feature", "properties": { "ID_V": "142187064v9", "TIMESTAMP": "2010-03-15T19:31:34Z", "UID": "247249", "USERNAME": "hugo-sgm", "CHANGESET": "4137555" }, "geometry": { "type": "Point", "coordinates": [ -43.195295399999964, -22.984745799999928 ] } }
+]
+}

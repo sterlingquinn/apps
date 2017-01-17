@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "163419184v1", "TIMESTAMP": "2012-05-13T15:52:19Z", "UID": "14351", "USERNAME": "WBSKI", "CHANGESET": "11587350", "SHAPE_Leng": 0.014918 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -122.35521110956577, 47.61848 ], [ -122.355477, 47.618591500000036 ] ] ] } }
+]
+}

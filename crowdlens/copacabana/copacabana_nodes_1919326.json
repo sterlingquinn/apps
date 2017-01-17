@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "ID_V": "2100483396v2", "TIMESTAMP": "2014-02-05T03:20:00Z", "UID": "1919326", "USERNAME": "Leonardo Lavigne", "CHANGESET": "20384974" }, "geometry": { "type": "Point", "coordinates": [ -43.188703499999974, -22.957274699999971 ] } }
+]
+}
